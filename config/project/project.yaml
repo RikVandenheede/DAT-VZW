@@ -1,0 +1,31 @@
+dateModified: 1648563672
+email:
+  fromEmail: rik.vandenheede0@hotmail.com
+  fromName: dat_vzw
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    0c29af0a-a0a3-4472-b6c2-51f0809f33d1: Homepage # Homepage
+    2f02eede-a297-4a5f-8f80-87e56651c99b: 'Vacatures overview' # Vacatures overview
+    7ce33ffe-39c3-4e09-a3b0-993c7187a718: Homepage # Homepage
+    37a2a072-4acf-42ca-a032-cd323c6baaae: Common # Common
+    46f2d4d1-ce5b-4c81-9426-b501551eb2de: 'Vacatures overview' # Vacatures overview
+    87db7015-5296-4b55-878d-f472d21686f7: Default # Default
+    139e1254-e8ca-48b0-a68a-3545a105e1ea: dat_vzw # dat_vzw
+    ba61c9d3-f20b-4b65-bb39-001e11577fd2: Intro # Intro
+    ba92d822-4196-43fb-b713-78499f587a0c: Blog # Blog
+    c12eda79-3a9a-4866-b9df-ce89c0124591: vacatures # vacatures
+    c81b6045-dcd0-401d-9cbc-326376bc872c: dat_vzw # dat_vzw
+    d58adfb1-7bb4-4606-9428-3499d791b8b3: Default # Default
+system:
+  edition: solo
+  live: true
+  name: dat_vzw
+  schemaVersion: 3.7.33
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

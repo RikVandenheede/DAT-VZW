@@ -1,0 +1,10 @@
+{% extends "_layout.twig" %}
+    
+{% block content %}
+    <h1>{{ entry.title }}</h1>
+    <p>{{ entry.intro }}</p>
+    {% set vacatures = craft.entries.section('vacatures').all() %}
+    {% for vacature in vacatures %}
+        {% include "_snippets/_vacaturecard.twig" %}
+    {% endfor %}
+{% endblock %}
