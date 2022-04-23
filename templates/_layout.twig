@@ -5,13 +5,13 @@
         <title>Welcome to Craft CMS</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
         <meta name="referrer" content="origin-when-cross-origin" />
+        <style>{{ source('main.css') }}</style>
     </head>
 
     <body>
+    
         {# HEADER #}
-        <nav>
-            {% include "_regions/_header.twig" %}
-        </nav>
+        {% include "_regions/_header.twig" %}
 
         {# BODY #}
         <main>
@@ -20,8 +20,6 @@
         </main>
 
         {# FOOTER #}
-        <footer>
-            {% include "_regions/_footer.twig" %}
-        </footer>
+        {% include "_regions/_footer.twig" %}
     </body>
 </html>

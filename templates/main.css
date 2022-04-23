@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  position: relative;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.btn--primary {
+  color: #fff;
+  background-color: #0268a5;
+}
+
+.btn--primary:hover {
+  background-color: #004168;
+}
+
+.btn--secondary {
+  background-color: #fff;
+  border: 2px solid #f7b23d;
+}
+
+.btn--secondary:hover {
+  color: #fff;
+  background-color: #f7b23d;
+}
+
+li {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.header-topmenu {
+  background-color: #f7b23d;
+  color: #fff;
+}
+
+.header-topmenu > nav {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 48px;
+}
+
+.header-topmenu__list {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-topmenu__listitem {
+  cursor: pointer;
+  margin-right: 4rem;
+}
+
+.header-topmenu__listitem:last-child {
+  margin: 0;
+}
+
+.header-mainmenu > nav {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-mainmenu > nav svg {
+  height: 70px;
+  width: auto;
+}
+
+.header-mainmenu__list {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-mainmenu__listitem {
+  cursor: pointer;
+  margin-right: 6rem;
+  position: relative;
+}
+
+.header-mainmenu__listitem:last-child {
+  margin: 0;
+}
+
+.header-mainmenu__listitem a {
+  padding: 1rem 0;
+}
+
+.header-mainmenu__listitem a:hover + .submenu {
+  display: block;
+}
+
+.header-mainmenu__listitem .submenu {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  margin-top: 34px;
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+  display: none;
+}
+
+.header-mainmenu__listitem .submenu__navitem {
+  padding: 1rem;
+}
+
+.header-mainmenu__listitem .submenu__navitem:hover {
+  color: #f7b23d;
+}
+
+.header-mainmenu__listitem .submenu:hover {
+  display: block;
+}
+/*# sourceMappingURL=main.css.map */

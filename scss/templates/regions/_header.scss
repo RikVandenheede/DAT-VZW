@@ -1,0 +1,98 @@
+@mixin listStyle($height) {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: $height;
+}
+
+@mixin flex {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header {
+  &-topmenu {
+    background-color: $color-primary;
+    color: $color-white;
+
+    & > nav {
+      @include listStyle(48px);
+    }
+
+    &__list {
+      height: 100%;
+      @include flex;
+    }
+
+    &__listitem {
+      cursor: pointer;
+      margin-right: 4rem;
+
+      &:last-child {
+        margin: 0;
+      }
+    }
+  }
+
+  &-mainmenu {
+    & > nav {
+      @include listStyle(90px);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      svg {
+        height: 70px;
+        width: auto;
+      }
+    }
+
+    &__list {
+      height: 100%;
+      @include flex;
+    }
+
+    &__listitem {
+      cursor: pointer;
+      margin-right: 6rem;
+      position: relative;
+
+      &:last-child {
+        margin: 0;
+      }
+
+      a {
+        padding: 1rem 0;
+
+        &:hover {
+          & + .submenu {
+            display: block;
+          }
+        }
+      }
+
+      .submenu {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 34px;
+        border: 1px solid rgb(189, 189, 189);
+        border-radius: 4px;
+        display: none;
+
+        &__navitem {
+          padding: 1rem;
+
+          &:hover {
+            color: $color-primary;
+          }
+        }
+
+        &:hover {
+          display: block;
+        }
+      }
+    }
+  }
+}

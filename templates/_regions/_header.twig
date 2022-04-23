@@ -1,3 +1,85 @@
-<nav>
-Header
-</nav>
+<header class="header">
+    <section class="header-topmenu">
+        <nav>
+            <ul class="header-topmenu__list">
+                <li class="header-topmenu__listitem">
+                    <a>Organisatie</a>
+                </li>
+                <li class="header-topmenu__listitem">
+                    <a>Ons team</a>
+                </li>
+                <li class="header-topmenu__listitem">
+                    <a>Werken bij Dat vzw</a>
+                </li>
+                <li class="header-topmenu__listitem">
+                    <a>Sponsors</a>
+                </li>
+                <li class="header-topmenu__listitem">
+                    <a>Inloggen</a>
+                </li>
+                <li class="header-topmenu__listitem">
+                    <a>NL</a> |
+                    <a>FR</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+    <section class="header-mainmenu">
+        <nav>
+            {% include 'Logo.svg' %}
+            <ul class="header-mainmenu__list">
+                <li class="header-mainmenu__listitem">
+                    <a>Traject van uw kind</a>
+                    <div class="submenu">
+                        <ul class="submenu__container">
+                            <li class="submenu__navitem">
+                                <a>Aanmelding</a>
+                            </li>
+                            <li class="submenu__navitem">
+                                <a>Screening</a>
+                            </li>
+                            <li class="submenu__navitem">
+                                <a>Intake</a>
+                            </li>
+                            <li class="submenu__navitem">
+                                <a>Onderzoeken</a>
+                            </li>
+                            <li class="submenu__navitem">
+                                <a>Behandeling</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="header-mainmenu__listitem">
+                    <a>Doelgroepen</a>
+                    <div class="submenu">
+                        <ul class="submenu__container">
+                            <li class="submenu__navitem">
+                                <a>test</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="header-mainmenu__listitem">
+                    <a>Aanbod</a>
+                    <div class="submenu">
+                        <ul class="submenu__container">
+                            <li class="submenu__navitem">
+                                <a>test</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="header-mainmenu__listitem">
+                    <a>verwijzers</a>
+                </li>
+                <li class="header-mainmenu__listitem">
+                    <a>Agenda</a>
+                </li>
+                <li class="header-mainmenu__listitem">
+                    <input class="btn btn--primary" type="button" value="Contact"/>
+                </li>
+            </ul>
+        </nav>
+    </section>
+</header>

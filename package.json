@@ -1,0 +1,41 @@
+{
+  "name": "dat_vzw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "build:dev": "webpack --config webpack.config.js --mode development",
+    "start": "webpack --watch",
+    "start:dev": "webpack --watch --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RikVandenheede/DAT-VZW.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RikVandenheede/DAT-VZW/issues"
+  },
+  "homepage": "https://github.com/RikVandenheede/DAT-VZW#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.1",
+    "cssnano": "^5.1.7",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "node-sass": "^7.0.1",
+    "postcss-loader": "^6.2.1",
+    "postcss-preset-env": "^7.4.3",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "node-sass-glob-importer": "^5.3.2"
+  }
+}
