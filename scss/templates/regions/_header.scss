@@ -55,6 +55,7 @@
     &__listitem {
       cursor: pointer;
       margin-right: 6rem;
+      // top: 150px;
       position: relative;
 
       &:last-child {
@@ -66,20 +67,31 @@
 
         &:hover {
           & + .submenu {
-            display: block;
+            top: 0;
+            opacity: 1;
+            visibility: visible;
+            z-index: 10;
+            // max-height: 400px;
+            // border: 1px solid rgb(189, 189, 189);
           }
         }
       }
 
       .submenu {
         position: absolute;
-        top: 0;
+        top: 100px;
+        // top: 0;
         left: 50%;
         transform: translateX(-50%);
-        margin-top: 34px;
+        margin-top: 30px;
         border: 1px solid rgb(189, 189, 189);
         border-radius: 4px;
-        display: none;
+        transition: all 0.3s ease-in-out;
+        opacity: 0;
+        visibility: hidden;
+        z-index: -100;
+        // max-height: 0px;
+        // overflow-y: hidden;
 
         &__navitem {
           padding: 1rem;
@@ -90,7 +102,12 @@
         }
 
         &:hover {
-          display: block;
+          // max-height: 400px;
+          // border: 1px solid rgb(189, 189, 189);
+          top: 0;
+          opacity: 1;
+          visibility: visible;
+          z-index: 10;
         }
       }
     }

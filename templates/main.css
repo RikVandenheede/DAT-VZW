@@ -224,19 +224,26 @@ li {
 }
 
 .header-mainmenu__listitem a:hover + .submenu {
-  display: block;
+  top: 0;
+  opacity: 1;
+  visibility: visible;
+  z-index: 10;
 }
 
 .header-mainmenu__listitem .submenu {
   position: absolute;
-  top: 0;
+  top: 100px;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  margin-top: 34px;
+  margin-top: 30px;
   border: 1px solid #bdbdbd;
   border-radius: 4px;
-  display: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+  z-index: -100;
 }
 
 .header-mainmenu__listitem .submenu__navitem {
@@ -248,6 +255,9 @@ li {
 }
 
 .header-mainmenu__listitem .submenu:hover {
-  display: block;
+  top: 0;
+  opacity: 1;
+  visibility: visible;
+  z-index: 10;
 }
 /*# sourceMappingURL=main.css.map */
