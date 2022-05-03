@@ -5,7 +5,7 @@
         <title>Welcome to Craft CMS</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
         <meta name="referrer" content="origin-when-cross-origin" />
-        <style>{{ source('main.css') }}</style>
+        <style>{{ source('main.css') }}</style> <!-- env variable ophalen > in css zetten-->
     </head>
 
     <body>
@@ -20,7 +20,7 @@
         </main>
 
         {# FOOTER #}
-        {% include "_regions/_footer.twig" %}
+        {# {% include "_regions/_footer.twig" %} #}
 
         {% do view.registerJsFile('main.js') %}
     </body>

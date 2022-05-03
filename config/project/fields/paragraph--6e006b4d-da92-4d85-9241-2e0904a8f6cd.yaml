@@ -1,0 +1,19 @@
+columnSuffix: anpyrwjv
+contentColumnType: text
+fieldGroup: 37a2a072-4acf-42ca-a032-cd323c6baaae # Common
+handle: paragraph
+instructions: ''
+name: Paragraph
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

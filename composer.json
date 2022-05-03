@@ -1,6 +1,7 @@
 {
   "require": {
     "craftcms/cms": "^3.7.26",
+    "studioespresso/craft-dumper": "^2.0",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {
@@ -17,10 +18,7 @@
       "yiisoft/yii2-composer": true
     },
     "sort-packages": true,
-    "optimize-autoloader": true,
-    "platform": {
-      "php": "7.2.5"
-    }
+    "optimize-autoloader": true
   },
   "scripts": {
     "post-root-package-install": [
