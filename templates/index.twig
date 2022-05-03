@@ -1,5 +1,22 @@
 {% extends "_layout.twig" %}
     
 {% block content %}
-    <h1>{{ entry.title }}</h1>
+    <div>
+        {% include "_snippets/_hero.twig" %}
+        <div>
+            foto placeholder
+        </div>
+    </div>
+
+    <div>
+        {% set homepageCards = craft.entries.section('homepageCards').all() %}
+        {% for homepageCard in homepageCards %}
+            {% include "_snippets/_homepageCard.twig" %}
+        {% endfor %}
+    </div>
+
+    <div>
+        {% include "_snippets/_homepageSponsors.twig" %}
+    </div>
+    
 {% endblock %}

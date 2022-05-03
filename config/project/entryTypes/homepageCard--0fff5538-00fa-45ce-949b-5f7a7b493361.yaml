@@ -1,5 +1,5 @@
 fieldLayouts:
-  c7935b08-f56e-43f7-9f23-91689d752df1:
+  aa3559dd-94b9-4935-99bc-3ae3d2d65422:
     tabs:
       -
         elements:
@@ -27,15 +27,6 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 4f1cbcaf-6c05-4000-9f90-3c0abe53704d # Subtitle
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
             fieldUid: 6e006b4d-da92-4d85-9241-2e0904a8f6cd # Paragraph
             instructions: null
             label: null
@@ -46,24 +37,11 @@ fieldLayouts:
             width: 100
         name: Content
         sortOrder: 1
-      -
-        elements:
-          -
-            fieldUid: d909cfa3-b155-404b-80ca-b857ebb84802 # Sponsors
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-        name: Sponsors
-        sortOrder: 2
-handle: homepage
+handle: homepageCard
 hasTitleField: true
-name: Homepage
-section: 0c29af0a-a0a3-4472-b6c2-51f0809f33d1 # Homepage
+name: 'homepage Card'
+section: 5c47d6c5-8f0d-4d83-945a-f20a48a5387c # Homepage Cards
 sortOrder: 1
-titleFormat: '{section.name|raw}'
+titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
