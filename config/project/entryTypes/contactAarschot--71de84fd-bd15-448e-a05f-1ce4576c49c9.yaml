@@ -1,0 +1,38 @@
+fieldLayouts:
+  4f3965b7-ced6-4596-b6ac-c85e41bbfa32:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: contactAarschot
+hasTitleField: true
+name: 'Contact Aarschot'
+section: e94f01f6-b17f-406d-90ce-dba20a0474f4 # Contact Aarschot
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
