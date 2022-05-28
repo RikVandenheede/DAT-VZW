@@ -1,4 +1,4 @@
-dateModified: 1651006447
+dateModified: 1652724672
 email:
   fromEmail: rik.vandenheede0@hotmail.com
   fromName: dat_vzw
@@ -7,6 +7,7 @@ meta:
   __names__:
     0c29af0a-a0a3-4472-b6c2-51f0809f33d1: Homepage # Homepage
     0fff5538-00fa-45ce-949b-5f7a7b493361: 'homepage Card' # homepage Card
+    1d9b20df-154e-4312-ad01-5d94eb217809: Contact # Contact
     2f02eede-a297-4a5f-8f80-87e56651c99b: 'Vacatures overview' # Vacatures overview
     4f1cbcaf-6c05-4000-9f90-3c0abe53704d: Subtitle # Subtitle
     5c47d6c5-8f0d-4d83-945a-f20a48a5387c: 'Homepage Cards' # Homepage Cards
@@ -27,6 +28,7 @@ meta:
     d58adfb1-7bb4-4606-9428-3499d791b8b3: Default # Default
     d909cfa3-b155-404b-80ca-b857ebb84802: Sponsors # Sponsors
     e3485094-16f6-4b6b-99ef-a35bb1bc4fd5: 'Homepage Sponsors' # Homepage Sponsors
+    fec971fd-7f13-4818-8bbc-4b497a1f6e78: Contact # Contact
 system:
   edition: pro
   live: true
