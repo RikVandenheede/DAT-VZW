@@ -1,4 +1,4 @@
-dateModified: 1653912166
+dateModified: 1653936464
 email:
   fromEmail: rik.vandenheede0@hotmail.com
   fromName: dat_vzw
@@ -18,11 +18,15 @@ meta:
     37a2a072-4acf-42ca-a032-cd323c6baaae: Common # Common
     46f2d4d1-ce5b-4c81-9426-b501551eb2de: 'Vacatures overview' # Vacatures overview
     66c31483-7f68-4b9a-8a8f-f0316059563d: 'Contact Form' # Contact Form
+    69f371e4-72a6-4502-8956-e95f058cb3e5: Image # Image
     71de84fd-bd15-448e-a05f-1ce4576c49c9: 'Contact Aarschot' # Contact Aarschot
+    081cf9f3-bf92-4771-b575-43f3d13b773a: 'Ons Team' # Ons Team
     87db7015-5296-4b55-878d-f472d21686f7: Default # Default
     139e1254-e8ca-48b0-a68a-3545a105e1ea: dat_vzw # dat_vzw
+    496e798f-2536-4e56-9ea3-b811738e4112: 'Ons Team Overview' # Ons Team Overview
     386196f2-464b-45fb-aa90-7167868ac034: 'Homepage Sponsor' # Homepage Sponsor
     a390452f-2409-4f3b-a9bd-61d5555f8a6d: HeroImage # HeroImage
+    b0e9e8f6-5b6a-40c1-a0cf-b736802777b0: 'Ons Team Overview' # Ons Team Overview
     b38d8e60-f5e0-4182-9c15-6ed75c6ace53: 'Public Schema' # Public Schema
     ba61c9d3-f20b-4b65-bb39-001e11577fd2: Intro # Intro
     ba92d822-4196-43fb-b713-78499f587a0c: Blog # Blog
@@ -30,13 +34,19 @@ meta:
     c12eda79-3a9a-4866-b9df-ce89c0124591: vacatures # vacatures
     c81b6045-dcd0-401d-9cbc-326376bc872c: dat_vzw # dat_vzw
     cbcb4f40-1260-4047-9d2a-9ae47c2977db: New # New
+    d2a53d27-1672-4cc2-8655-3a1a00176d66: Default # Default
     d58adfb1-7bb4-4606-9428-3499d791b8b3: Default # Default
     d909cfa3-b155-404b-80ca-b857ebb84802: Sponsors # Sponsors
     e3e9a72f-1058-44c6-93a0-dc88aed4c0c3: 'Contact Tienen' # Contact Tienen
     e94f01f6-b17f-406d-90ce-dba20a0474f4: 'Contact Aarschot' # Contact Aarschot
     e3485094-16f6-4b6b-99ef-a35bb1bc4fd5: 'Homepage Sponsors' # Homepage Sponsors
+    ef6a0cfc-3825-4c16-bec8-eb45986cb2c6: Link # Link
     fec971fd-7f13-4818-8bbc-4b497a1f6e78: Contact # Contact
 plugins:
+  dumper:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   formie:
     edition: standard
     enabled: true
