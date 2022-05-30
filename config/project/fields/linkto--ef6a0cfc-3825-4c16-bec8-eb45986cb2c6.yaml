@@ -1,0 +1,15 @@
+columnSuffix: hlidprbt
+contentColumnType: string(255)
+fieldGroup: 37a2a072-4acf-42ca-a032-cd323c6baaae # Common
+handle: linkto
+instructions: ''
+name: Link
+searchable: true
+settings:
+  maxLength: '255'
+  placeholder: null
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

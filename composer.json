@@ -2,7 +2,7 @@
     "require": {
         "craftcms/cms": "^3.7.26",
         "craftcms/redactor": "2.10.8",
-        "studioespresso/craft-dumper": "^2.0",
+        "studioespresso/craft-dumper": "2.0.0",
         "studioespresso/craft-navigate": "2.9.0",
         "verbb/formie": "1.5.18",
         "vlucas/phpdotenv": "^5.4.0"

@@ -1,5 +1,5 @@
 fieldLayouts:
-  aa3559dd-94b9-4935-99bc-3ae3d2d65422:
+  1a89d43d-4a38-43dd-943c-0a30c6e20891:
     tabs:
       -
         elements:
@@ -46,10 +46,10 @@ fieldLayouts:
             width: 100
         name: Content
         sortOrder: 1
-handle: homepageCard
+handle: default
 hasTitleField: true
-name: 'homepage Card'
-section: 5c47d6c5-8f0d-4d83-945a-f20a48a5387c # Homepage Cards
+name: Default
+section: 081cf9f3-bf92-4771-b575-43f3d13b773a # Ons Team
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null
