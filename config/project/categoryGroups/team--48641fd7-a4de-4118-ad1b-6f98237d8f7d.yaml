@@ -1,0 +1,41 @@
+defaultPlacement: end
+fieldLayouts:
+  6432c4b7-f9bc-43ca-9c6b-c3d8bbf24b1f:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: team
+name: Team
+siteSettings:
+  139e1254-e8ca-48b0-a68a-3545a105e1ea: # dat_vzw
+    hasUrls: true
+    template: null
+    uriFormat: 'team/{slug}'
+structure:
+  maxLevels: null
+  uid: b671d7e2-1210-475c-b5e3-bba60f8ac158

@@ -4,6 +4,19 @@ fieldLayouts:
       -
         elements:
           -
+            fieldUid: 3073bef6-89df-487d-954d-5500268f9706 # Melding
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: melding
+        sortOrder: 1
+      -
+        elements:
+          -
             autocapitalize: true
             autocomplete: false
             autocorrect: true
@@ -45,7 +58,7 @@ fieldLayouts:
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        sortOrder: 2
       -
         elements:
           -
@@ -58,7 +71,20 @@ fieldLayouts:
             warning: null
             width: 100
         name: Sponsors
-        sortOrder: 2
+        sortOrder: 3
+      -
+        elements:
+          -
+            fieldUid: 3fe36747-cd19-43f4-ab43-3990abff9e6f # Card
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: categorieën
+        sortOrder: 4
 handle: homepage
 hasTitleField: true
 name: Homepage

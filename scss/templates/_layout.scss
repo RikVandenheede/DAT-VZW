@@ -1,6 +1,8 @@
 main {
   max-width: 1440px;
+  padding: 0 70px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 h1,
@@ -12,4 +14,21 @@ li,
 p,
 li {
   font-family: $font-primary;
+}
+
+h1 {
+  position: relative;
+  display: inline;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: 20%;
+    width: 90%;
+    height: 15px;
+    background-color: $color-primary;
+    z-index: -1;
+    border-radius: 2px;
+  }
 }

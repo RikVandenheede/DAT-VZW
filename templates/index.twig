@@ -1,6 +1,12 @@
 {% extends "_layout.twig" %}
     
 {% block content %}
+    {% if entry.melding %}
+        <div>
+            <p>{{entry.melding}}</p>
+        </div>
+    {% endif %}
+
     <div>
         {% include "_snippets/_hero.twig" %}
         <div>
@@ -8,15 +14,20 @@
         </div>
     </div>
 
-    <div style="display: flex;">
-        {% set homepageCards = craft.entries.section('homepageCards').all() %}
-        {% for homepageCard in homepageCards %}
-            {% include "_snippets/_homepageCard.twig" %}
+    <div class="homepage__category">
+        {% set cards = entry.card.all() %}
+        {% for card in cards %}
+            {% include "_snippets/_card.twig" %}
         {% endfor %}
     </div>
 
     <div>
         {% include "_snippets/_homepageSponsors.twig" %}
     </div>
+
+    {# {% include '_snippets/_items/_card.twig' with {
+                classes: 'js-filter-item',
+                id: entry.eventcategorie.ids|join(", ")
+            } %} #}
     
 {% endblock %}

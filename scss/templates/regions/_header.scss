@@ -1,5 +1,6 @@
 @mixin listStyle($height) {
   max-width: 1440px;
+  padding: 0 70px;
   margin: 0 auto;
   height: $height;
 }
