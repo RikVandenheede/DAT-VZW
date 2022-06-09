@@ -1,0 +1,38 @@
+fieldLayouts:
+  d6d0c1c4-dcb9-4f60-9c5c-025ee1c1de5d:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: doelgroepenOverview
+hasTitleField: false
+name: 'Doelgroepen Overview'
+section: 0febde84-9929-49a0-a275-b72628edd37e # Doelgroepen Overview
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
