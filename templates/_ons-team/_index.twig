@@ -7,7 +7,7 @@
 
          <div class="ons-team">
          <div class="cards__container ">
-            {% set cards = entry.card.all() %}
+            {% set cards = craft.entries.section("onsTeam").all() %}
             {% for card in cards %}
                 {% include "_snippets/_card.twig" %}
             {% endfor %}

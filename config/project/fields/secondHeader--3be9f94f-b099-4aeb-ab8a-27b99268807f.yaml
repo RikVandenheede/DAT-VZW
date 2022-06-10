@@ -1,10 +1,10 @@
-columnSuffix: bguzpdcx
+columnSuffix: zfhorpji
 contentColumnType: text
 fieldGroup: 37a2a072-4acf-42ca-a032-cd323c6baaae # Common
-handle: cardTitle
+handle: secondHeader
 instructions: ''
-name: cardTitle
-searchable: false
+name: 'Second Header'
+searchable: true
 settings:
   byteLimit: null
   charLimit: null

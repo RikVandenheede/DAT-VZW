@@ -8,25 +8,26 @@ searchable: false
 settings:
   allowSelfRelations: false
   allowUploads: true
-  allowedKinds: null
-  defaultUploadLocationSource: ''
-  defaultUploadLocationSubpath: null
-  limit: null
+  allowedKinds:
+    - image
+  defaultUploadLocationSource: 'volume:9a010872-6648-4d56-aebc-be463321e508' # assets
+  defaultUploadLocationSubpath: ''
+  limit: '1'
   localizeRelations: false
   previewMode: full
-  restrictFiles: null
-  selectionLabel: null
+  restrictFiles: '1'
+  selectionLabel: ''
   showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: true
-  singleUploadLocationSource: ''
-  singleUploadLocationSubpath: null
+  singleUploadLocationSource: 'volume:9a010872-6648-4d56-aebc-be463321e508' # assets
+  singleUploadLocationSubpath: ''
   source: null
   sources: '*'
   targetSiteId: null
   useSingleFolder: false
   validateRelatedElements: false
-  viewMode: null
+  viewMode: large
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Assets

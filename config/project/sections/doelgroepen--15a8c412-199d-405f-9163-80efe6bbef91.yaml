@@ -16,7 +16,7 @@ previewTargets:
         - '1'
 propagationMethod: all
 siteSettings:
-  139e1254-e8ca-48b0-a68a-3545a105e1ea:
+  139e1254-e8ca-48b0-a68a-3545a105e1ea: # dat_vzw
     enabledByDefault: true
     hasUrls: true
     template: _doelgroepen\_entry.twig

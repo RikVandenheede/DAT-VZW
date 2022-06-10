@@ -4,26 +4,12 @@ fieldLayouts:
       -
         elements:
           -
-            autocapitalize: true
-            autocomplete: false
-            autocorrect: true
-            class: null
-            disabled: false
-            id: null
+            fieldUid: d909cfa3-b155-404b-80ca-b857ebb84802 # Sponsors
             instructions: null
             label: null
-            max: null
-            min: null
-            name: null
-            orientation: null
-            placeholder: null
-            readonly: false
-            requirable: false
-            size: null
-            step: null
+            required: false
             tip: null
-            title: null
-            type: craft\fieldlayoutelements\EntryTitleField
+            type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
         name: Content

@@ -1,4 +1,4 @@
-<header class="header">
+{# <header class="header">
     <section class="header-topmenu">
         <nav>
             <ul class="header-topmenu__list">
@@ -76,6 +76,48 @@
                 <li class="header-mainmenu__listitem">
                     <a>Agenda</a>
                 </li>
+                <li class="header-mainmenu__listitem">
+                    <input class="btn btn--primary" type="button" value="Contact"/>
+                </li>
+            </ul>
+        </nav>
+    </section>
+</header> #}
+
+{% set mainNavTop = craft.navigate.raw('headerNavigationTop') %}
+{% set mainNavBot = craft.navigate.raw('headerNavigationBottom') %}
+
+<header class="header">
+    <section class="header-topmenu">
+        <nav>
+            <ul class="header-topmenu__list">
+
+                {% for node in mainNavTop %}
+                    <li class="header-topmenu__listitem">
+                        <a href="{{ node.url }}" > {{ node.name }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </section>
+    <section class="header-mainmenu">
+        <nav>
+            {% include 'Logo.svg' %}
+            <ul class="header-mainmenu__list">
+                {% for node in mainNavBot %}
+                    <li class="header-mainmenu__listitem">
+                        <a href="{{ node.url }}" > {{ node.name }}</a>
+                        <div class="submenu">
+                            <ul class="submenu__container">
+                            {% for node in node.children %}
+                                <li class="submenu__navitem">
+                                    <a href="{{ node.url }}" > {{ node.name }}</a>
+                                </li>
+                            {% endfor %}
+                            </ul>
+                        </div>
+                    </li>
+                {% endfor %}
                 <li class="header-mainmenu__listitem">
                     <input class="btn btn--primary" type="button" value="Contact"/>
                 </li>

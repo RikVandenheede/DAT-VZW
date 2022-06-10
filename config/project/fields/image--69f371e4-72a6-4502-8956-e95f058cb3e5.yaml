@@ -2,31 +2,32 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: 37a2a072-4acf-42ca-a032-cd323c6baaae # Common
 handle: image
-instructions: foto
+instructions: 'geef een foto in'
 name: Image
 searchable: true
 settings:
   allowSelfRelations: false
   allowUploads: true
-  allowedKinds: null
-  defaultUploadLocationSource: ''
-  defaultUploadLocationSubpath: assets
-  limit: ''
+  allowedKinds:
+    - image
+  defaultUploadLocationSource: 'volume:9a010872-6648-4d56-aebc-be463321e508' # assets
+  defaultUploadLocationSubpath: ''
+  limit: '1'
   localizeRelations: false
   previewMode: full
-  restrictFiles: ''
-  selectionLabel: ''
+  restrictFiles: '1'
+  selectionLabel: 'voeg een foto toe'
   showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
-  singleUploadLocationSource: ''
+  singleUploadLocationSource: 'volume:9a010872-6648-4d56-aebc-be463321e508' # assets
   singleUploadLocationSubpath: '@webroot'
   source: null
   sources: '*'
   targetSiteId: null
   useSingleFolder: false
   validateRelatedElements: false
-  viewMode: list
+  viewMode: large
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Assets

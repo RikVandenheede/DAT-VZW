@@ -57,10 +57,56 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
-        name: Content
+          -
+            fieldUid: 69f371e4-72a6-4502-8956-e95f058cb3e5 # Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Header
         sortOrder: 2
       -
         elements:
+          -
+            heading: null
+            type: craft\fieldlayoutelements\Heading
+          -
+            fieldUid: 1ef7a627-b53e-42eb-8f24-b542d44f45b7 # cardImage
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 345322f5-8924-4e3a-85b5-a9db7bdcfa10 # cardTitle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 3387e151-0efd-4a63-b79d-0590657d081a # cardButtonText
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: categorieën
+        sortOrder: 3
+      -
+        elements:
+          -
+            heading: test
+            type: craft\fieldlayoutelements\Heading
           -
             fieldUid: d909cfa3-b155-404b-80ca-b857ebb84802 # Sponsors
             instructions: null
@@ -71,19 +117,6 @@ fieldLayouts:
             warning: null
             width: 100
         name: Sponsors
-        sortOrder: 3
-      -
-        elements:
-          -
-            fieldUid: 3fe36747-cd19-43f4-ab43-3990abff9e6f # Card
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-        name: categorieën
         sortOrder: 4
 handle: homepage
 hasTitleField: true

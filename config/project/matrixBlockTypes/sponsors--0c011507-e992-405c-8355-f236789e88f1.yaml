@@ -1,0 +1,54 @@
+field: d909cfa3-b155-404b-80ca-b857ebb84802 # Sponsors
+fieldLayouts:
+  d2df56de-b45f-49aa-af39-91371b219b14:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 72406be5-8149-4003-a8d7-03d18a95dba1 # sponsor
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  72406be5-8149-4003-a8d7-03d18a95dba1: # sponsor
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: sponsor
+    instructions: ''
+    name: sponsor
+    searchable: true
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:9a010872-6648-4d56-aebc-be463321e508' # assets
+      defaultUploadLocationSubpath: ''
+      limit: ''
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:9a010872-6648-4d56-aebc-be463321e508' # assets
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: true
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: sponsors
+name: Sponsors
+sortOrder: 1

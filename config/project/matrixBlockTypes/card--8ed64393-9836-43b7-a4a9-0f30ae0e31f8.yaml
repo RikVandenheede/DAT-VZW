@@ -5,7 +5,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 57d5a4d4-ec7a-49df-8759-4c678060fb0b # Image
+            fieldUid: 57d5a4d4-ec7a-49df-8759-4c678060fb0b # cardImage
             instructions: null
             label: null
             required: true
@@ -38,7 +38,7 @@ fields:
     columnSuffix: rvzlcred
     contentColumnType: text
     fieldGroup: null
-    handle: buttonText
+    handle: cardButtonText
     instructions: ''
     name: 'Button text'
     searchable: false
@@ -74,13 +74,13 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  57d5a4d4-ec7a-49df-8759-4c678060fb0b: # Image
+  57d5a4d4-ec7a-49df-8759-4c678060fb0b: # cardImage
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
-    handle: image
+    handle: cardImage
     instructions: ''
-    name: Image
+    name: cardImage
     searchable: false
     settings:
       allowSelfRelations: false
@@ -94,7 +94,7 @@ fields:
       previewMode: full
       restrictFiles: '1'
       selectionLabel: ''
-      showSiteMenu: false
+      showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
       singleUploadLocationSource: 'volume:9a010872-6648-4d56-aebc-be463321e508' # assets

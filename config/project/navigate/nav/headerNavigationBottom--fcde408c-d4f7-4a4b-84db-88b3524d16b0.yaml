@@ -1,0 +1,6 @@
+adminOnly: 1
+allowSources: '*'
+enabledSiteGroups: '*'
+handle: headerNavigationBottom
+levels: 2
+title: 'Header navigation bottom'
