@@ -1,4 +1,4 @@
-dateModified: 1654797893
+dateModified: 1654873182
 email:
   fromEmail: rik.vandenheede0@hotmail.com
   fromName: dat_vzw
@@ -8,6 +8,7 @@ meta:
     0c29af0a-a0a3-4472-b6c2-51f0809f33d1: Homepage # Homepage
     0febde84-9929-49a0-a275-b72628edd37e: 'Doelgroepen Overview' # Doelgroepen Overview
     1d9b20df-154e-4312-ad01-5d94eb217809: Contact # Contact
+    1ef7a627-b53e-42eb-8f24-b542d44f45b7: cardImage # cardImage
     1f03427e-0787-4cec-a019-10df1ed18b0d: 'Button text' # Button text
     2a9a0bb2-aca1-4cf7-986d-6f2100f184b6: Verwijzers # Verwijzers
     02ddac02-f70c-4b92-8473-3d67e79e92df: 'Traject van het kind' # Traject van het kind
@@ -32,13 +33,14 @@ meta:
     081cf9f3-bf92-4771-b575-43f3d13b773a: 'Ons Team' # Ons Team
     82c2a3d2-40c0-4abc-a27f-09c90157b7ad: Aanbod # Aanbod
     87db7015-5296-4b55-878d-f472d21686f7: Default # Default
-    139e1254-e8ca-48b0-a68a-3545a105e1ea: dat_vzw # dat_vzw
     496e798f-2536-4e56-9ea3-b811738e4112: 'Ons Team Overview' # Ons Team Overview
     655c5b6d-fef5-4f83-8fbf-5be4817d5682: Default # Default
     3073bef6-89df-487d-954d-5500268f9706: Melding # Melding
+    3387e151-0efd-4a63-b79d-0590657d081a: cardButtonText # cardButtonText
     3799f821-2eed-4c8d-9fc0-7b7d9dcd26bc: Default # Default
     13423e1e-608d-48a0-ae28-36774b3a7022: 'Verwijzers Overview' # Verwijzers Overview
     48641fd7-a4de-4118-ad1b-6f98237d8f7d: Team # Team
+    345322f5-8924-4e3a-85b5-a9db7bdcfa10: cardTitle # cardTitle
     386196f2-464b-45fb-aa90-7167868ac034: 'Homepage Sponsor' # Homepage Sponsor
     a390452f-2409-4f3b-a9bd-61d5555f8a6d: HeroImage # HeroImage
     b0e9e8f6-5b6a-40c1-a0cf-b736802777b0: 'Ons Team Overview' # Ons Team Overview

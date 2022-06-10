@@ -3,11 +3,11 @@
 {% block content %}
         <h1>{{ entry.title }}</h1>
         <p>{{ entry.subtitle }}</p>
-
-         <div class="ons-team">
-            {% set trajectCards = craft.entries.section('onsTeam').all() %}
-            {% for trajectCard in trajectCards %}
-                {% include "_snippets/_teamCard.twig" %}
+        <div>
+            {% set cards = entry.card.all() %}   
+            {% set cards = craft.entries.section('trajectVanHetKind').all() %}   
+            {% for card in cards %}
+                {% include "_snippets/_card.twig" %}
             {% endfor %}
         </div>
 {% endblock %}

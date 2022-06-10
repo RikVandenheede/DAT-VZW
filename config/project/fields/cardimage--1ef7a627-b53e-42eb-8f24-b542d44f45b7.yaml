@@ -1,0 +1,32 @@
+columnSuffix: vntddbrk
+contentColumnType: string
+fieldGroup: 37a2a072-4acf-42ca-a032-cd323c6baaae # Common
+handle: cardimage
+instructions: ''
+name: cardImage
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowUploads: true
+  allowedKinds: null
+  defaultUploadLocationSource: ''
+  defaultUploadLocationSubpath: null
+  limit: null
+  localizeRelations: false
+  previewMode: full
+  restrictFiles: null
+  selectionLabel: null
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: true
+  singleUploadLocationSource: ''
+  singleUploadLocationSubpath: null
+  source: null
+  sources: '*'
+  targetSiteId: null
+  useSingleFolder: false
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

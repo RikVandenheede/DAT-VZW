@@ -4,7 +4,7 @@ handle: vacaturesOverview
 name: 'Vacatures overview'
 propagationMethod: all
 siteSettings:
-  139e1254-e8ca-48b0-a68a-3545a105e1ea: # dat_vzw
+  139e1254-e8ca-48b0-a68a-3545a105e1ea:
     enabledByDefault: true
     hasUrls: true
     template: _vacatures/_index.twig
