@@ -386,4 +386,24 @@ h1::before {
 .homepage__category .card:last-child {
   margin: 0;
 }
+
+.vacatures__category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.vacatures__category .card {
+  width: 32%;
+  margin: 0 1% 0 0;
+}
+
+.vacatures__category .card:last-child {
+  margin: 0;
+}
 /*# sourceMappingURL=main.css.map */

@@ -2,37 +2,12 @@
     
 {% block content %}
     <h1>{{ entry.title }}</h1>
-    <p>{{ entry.intro }}</p>
 
-    <h2>Bedrijfsinformatie</h2>
-    <h3>Welkom bij dat vzw!</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
-    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-    sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    {% set blocks = entry.vacatureInformatie.all() %}   
+    {% set blocks = craft.entries.section('vacatures').all() %}
+    {% for block in blocks %}
+        {% include entry.vacatureIformatie %}
+    {% endfor %}
 
-    <h3>Waar we voor staan</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
-    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-    sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-    <h2>Job informatie</h2>
-    <h3>Functieomschrijving</h3>
-    <h3>Functievereisten</h3>
-
-    <h2>Extra legale voordelen</h2>
-    <h3>Samen gaan we voor de glimlach</h3>
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do eiusmod tempor incididunt ut 
-    labore et dolore magna aliqua.</p>
-
-    <h2>Contactgegevens</h2>
-    <h3>Overtuigd en zin om bij ons aan de slag te gaan?</h3>
-    <button class="card__link btn btn--primary" href=>Verstuur je cv en motivatiebrief</button>
-
-    <h4>Meer informatie?</h4>
-    <p>Je kan steeds terecht bij Amy Vandevelde, op het nummer 0471 23 45 67 of via amy.vandevelde@datvzw.be </p>
-
-{% endblock %}
+{% endblock %} 

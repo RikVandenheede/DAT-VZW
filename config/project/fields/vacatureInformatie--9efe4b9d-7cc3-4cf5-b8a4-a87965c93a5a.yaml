@@ -1,0 +1,16 @@
+columnSuffix: exjvohul
+contentColumnType: string
+fieldGroup: 78103ee9-2c1b-48fb-9c81-dd6168a24413 # Vacatures
+handle: vacatureInformatie
+instructions: ''
+name: 'Vacature informatie'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_vacatureinformatie}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix
