@@ -1,4 +1,4 @@
-dateModified: 1654797893
+dateModified: 1654849556
 email:
   fromEmail: rik.vandenheede0@hotmail.com
   fromName: dat_vzw
@@ -35,17 +35,21 @@ meta:
     139e1254-e8ca-48b0-a68a-3545a105e1ea: dat_vzw # dat_vzw
     496e798f-2536-4e56-9ea3-b811738e4112: 'Ons Team Overview' # Ons Team Overview
     655c5b6d-fef5-4f83-8fbf-5be4817d5682: Default # Default
+    928e5be4-da9c-43e7-bd8c-2f3f12106e61: Beschrijving # Beschrijving
     3073bef6-89df-487d-954d-5500268f9706: Melding # Melding
     3799f821-2eed-4c8d-9fc0-7b7d9dcd26bc: Default # Default
     13423e1e-608d-48a0-ae28-36774b3a7022: 'Verwijzers Overview' # Verwijzers Overview
     48641fd7-a4de-4118-ad1b-6f98237d8f7d: Team # Team
+    78103ee9-2c1b-48fb-9c81-dd6168a24413: Vacatures # Vacatures
     386196f2-464b-45fb-aa90-7167868ac034: 'Homepage Sponsor' # Homepage Sponsor
     a390452f-2409-4f3b-a9bd-61d5555f8a6d: HeroImage # HeroImage
+    af9446f6-b5a2-4cf3-b64c-eacb2c65c15e: Vereisten # Vereisten
     b0e9e8f6-5b6a-40c1-a0cf-b736802777b0: 'Ons Team Overview' # Ons Team Overview
     b38d8e60-f5e0-4182-9c15-6ed75c6ace53: 'Public Schema' # Public Schema
     ba61c9d3-f20b-4b65-bb39-001e11577fd2: Intro # Intro
     ba92d822-4196-43fb-b713-78499f587a0c: Blog # Blog
     be92afd4-5092-4ec2-8aff-7abe03a9e8ac: 'Traject van het kind Overview' # Traject van het kind Overview
+    beb1916b-a9be-4f29-aa5b-badd95d4883c: 'Vacature titel' # Vacature titel
     c0b6f8e5-d45b-4269-9445-61b3e4287cc5: 'Traject van het kind' # Traject van het kind
     c059b647-3868-4e91-9c7e-a0b34036f257: 'Contact Tienen' # Contact Tienen
     c12eda79-3a9a-4866-b9df-ce89c0124591: vacatures # vacatures

@@ -4,15 +4,6 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 69f371e4-72a6-4502-8956-e95f058cb3e5 # Image
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
             autocapitalize: true
             autocomplete: false
             autocorrect: true
@@ -36,7 +27,16 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: ef6a0cfc-3825-4c16-bec8-eb45986cb2c6 # Link
+            fieldUid: 928e5be4-da9c-43e7-bd8c-2f3f12106e61 # Beschrijving
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: af9446f6-b5a2-4cf3-b64c-eacb2c65c15e # Vereisten
             instructions: null
             label: null
             required: false

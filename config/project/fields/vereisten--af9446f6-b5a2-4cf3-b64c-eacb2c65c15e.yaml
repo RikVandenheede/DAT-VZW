@@ -1,0 +1,19 @@
+columnSuffix: obpumjel
+contentColumnType: text
+fieldGroup: 78103ee9-2c1b-48fb-9c81-dd6168a24413 # Vacatures
+handle: vereisten
+instructions: ''
+name: Vereisten
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

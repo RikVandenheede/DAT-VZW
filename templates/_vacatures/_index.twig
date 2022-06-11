@@ -3,8 +3,14 @@
 {% block content %}
     <h1>{{ entry.title }}</h1>
     <p>{{ entry.intro }}</p>
-    {% set vacatures = craft.entries.section('vacatures').all() %}
-    {% for vacature in vacatures %}
-        {% include "_snippets/_vacaturecard.twig" %}
-    {% endfor %}
+
+
+    <div>
+        <div class="cards__container ">
+            {% set cards = entry.card.all() %}
+            {% for card in cards %}
+                {% include "_snippets/_card.twig" %}
+            {% endfor %}
+        </div>
+    </div>
 {% endblock %}
