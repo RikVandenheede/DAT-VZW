@@ -1,19 +1,16 @@
 columnSuffix: tebmyrwd
-contentColumnType: text
+contentColumnType: string
 fieldGroup: 37a2a072-4acf-42ca-a032-cd323c6baaae # Common
 handle: sponsors
 instructions: 'Sponsors section title'
 name: Sponsors
 searchable: true
 settings:
-  byteLimit: null
-  charLimit: null
-  code: ''
-  columnType: null
-  initialRows: '4'
-  multiline: ''
-  placeholder: null
-  uiMode: normal
+  contentTable: '{{%matrixcontent_sponsors}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationKeyFormat: null
+  propagationMethod: all
 translationKeyFormat: null
-translationMethod: none
-type: craft\fields\PlainText
+translationMethod: site
+type: craft\fields\Matrix

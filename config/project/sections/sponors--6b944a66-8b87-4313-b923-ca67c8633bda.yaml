@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
-handle: contact
-name: Contact
+handle: sponors
+name: Sponors
 previewTargets:
   -
     __assoc__:
@@ -19,6 +19,6 @@ siteSettings:
   139e1254-e8ca-48b0-a68a-3545a105e1ea: # dat_vzw
     enabledByDefault: true
     hasUrls: true
-    template: _contact\_contact.twig
-    uriFormat: contact
-type: single
+    template: _sponors/_entry
+    uriFormat: 'sponors/{slug}'
+type: channel

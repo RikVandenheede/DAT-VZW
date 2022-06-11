@@ -10,20 +10,20 @@
     <div>
         {% include "_snippets/_hero.twig" %}
         <div>
-            foto
+            <a href="{{siteUrl}}">{{svg('@webroot/assets/Visual-graphic_2022-06-10-163019_jelw.svg')| attr({class:'w-full max-w-logo'})}}</a>
         </div>
     </div>
 
     <div class="homepage__category">
-        {% set cards = entry.card.all() %}
+        {% set cards = craft.entries.section("homepageCategories").all() %}
         {% for card in cards %}
             {% include "_snippets/_card.twig" %}
         {% endfor %}
     </div>
 
-    <div>
+    {# <div>
         {% include "_snippets/_homepageSponsors.twig" %}
-    </div>
+    </div> #}
 
     {# {% include '_snippets/_items/_card.twig' with {
                 classes: 'js-filter-item',
