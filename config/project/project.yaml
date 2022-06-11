@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-dateModified: 1654849556
-=======
-<<<<<<< HEAD
-dateModified: 1654885924
-=======
-dateModified: 1654899095
->>>>>>> 776377cecdb8c44799b22b3ab3ef11edd612d3da
->>>>>>> a2590b91106d02534f138a9378bac5b0335abdfb
+dateModified: 1654937270
 email:
   fromEmail: rik.vandenheede0@hotmail.com
   fromName: dat_vzw
@@ -54,12 +46,9 @@ meta:
     13423e1e-608d-48a0-ae28-36774b3a7022: 'Verwijzers Overview' # Verwijzers Overview
     22054a9e-cad5-42f0-ac5b-48a8a2c0c5c3: 'Homepage Categories' # Homepage Categories
     48641fd7-a4de-4118-ad1b-6f98237d8f7d: Team # Team
-<<<<<<< HEAD
-    78103ee9-2c1b-48fb-9c81-dd6168a24413: Vacatures # Vacatures
-=======
     72406be5-8149-4003-a8d7-03d18a95dba1: sponsor # sponsor
+    78103ee9-2c1b-48fb-9c81-dd6168a24413: Vacatures # Vacatures
     345322f5-8924-4e3a-85b5-a9db7bdcfa10: cardTitle # cardTitle
->>>>>>> a2590b91106d02534f138a9378bac5b0335abdfb
     386196f2-464b-45fb-aa90-7167868ac034: 'Homepage Sponsor' # Homepage Sponsor
     a390452f-2409-4f3b-a9bd-61d5555f8a6d: HeroImage # HeroImage
     af9446f6-b5a2-4cf3-b64c-eacb2c65c15e: Vereisten # Vereisten
