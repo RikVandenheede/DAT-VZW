@@ -1,31 +1,8 @@
 fieldLayouts:
-  30b93e05-316a-4ab6-977a-7531de058983:
+  406a3cf0-9812-4314-8ddb-e705efb91733:
     tabs:
       -
         elements:
-          -
-            autocapitalize: true
-            autocomplete: false
-            autocorrect: true
-            class: null
-            disabled: false
-            id: null
-            instructions: null
-            label: null
-            max: null
-            min: null
-            name: null
-            orientation: null
-            placeholder: null
-            readonly: false
-            requirable: false
-            size: null
-            step: null
-            tip: null
-            title: null
-            type: craft\fieldlayoutelements\EntryTitleField
-            warning: null
-            width: 100
           -
             fieldUid: 1ef7a627-b53e-42eb-8f24-b542d44f45b7 # cardImage
             instructions: null
@@ -58,7 +35,7 @@ fieldLayouts:
 handle: default
 hasTitleField: true
 name: Default
-section: 82c2a3d2-40c0-4abc-a27f-09c90157b7ad # Aanbod
+section: 22054a9e-cad5-42f0-ac5b-48a8a2c0c5c3 # Homepage Categories
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null

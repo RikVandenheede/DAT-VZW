@@ -1,21 +1,33 @@
+<<<<<<< HEAD
 dateModified: 1654849556
+=======
+<<<<<<< HEAD
+dateModified: 1654885924
+=======
+dateModified: 1654899095
+>>>>>>> 776377cecdb8c44799b22b3ab3ef11edd612d3da
+>>>>>>> a2590b91106d02534f138a9378bac5b0335abdfb
 email:
   fromEmail: rik.vandenheede0@hotmail.com
   fromName: dat_vzw
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
+    0c011507-e992-405c-8355-f236789e88f1: Sponsors # Sponsors
     0c29af0a-a0a3-4472-b6c2-51f0809f33d1: Homepage # Homepage
     0febde84-9929-49a0-a275-b72628edd37e: 'Doelgroepen Overview' # Doelgroepen Overview
     1d9b20df-154e-4312-ad01-5d94eb217809: Contact # Contact
+    1ef7a627-b53e-42eb-8f24-b542d44f45b7: cardImage # cardImage
     1f03427e-0787-4cec-a019-10df1ed18b0d: 'Button text' # Button text
     2a9a0bb2-aca1-4cf7-986d-6f2100f184b6: Verwijzers # Verwijzers
     02ddac02-f70c-4b92-8473-3d67e79e92df: 'Traject van het kind' # Traject van het kind
     2f02eede-a297-4a5f-8f80-87e56651c99b: 'Vacatures overview' # Vacatures overview
+    3be9f94f-b099-4aeb-ab8a-27b99268807f: 'Second Header' # Second Header
     3e2b268c-fd28-4ee8-8cae-8dab41dc9dbb: 'Doelgroepen Overview' # Doelgroepen Overview
     3fe36747-cd19-43f4-ab43-3990abff9e6f: Card # Card
     4f1cbcaf-6c05-4000-9f90-3c0abe53704d: Subtitle # Subtitle
     5e00612a-24b9-494d-a4d8-eae8e7a1be6d: 'Card Title' # Card Title
+    6b944a66-8b87-4313-b923-ca67c8633bda: Sponors # Sponors
     6e006b4d-da92-4d85-9241-2e0904a8f6cd: Paragraph # Paragraph
     7ce33ffe-39c3-4e09-a3b0-993c7187a718: Homepage # Homepage
     8ed64393-9836-43b7-a4a9-0f30ae0e31f8: Card # Card
@@ -25,7 +37,7 @@ meta:
     0036f8cb-73f6-426c-962b-f39d99c441f4: Button # Button
     37a2a072-4acf-42ca-a032-cd323c6baaae: Common # Common
     46f2d4d1-ce5b-4c81-9426-b501551eb2de: 'Vacatures overview' # Vacatures overview
-    57d5a4d4-ec7a-49df-8759-4c678060fb0b: Image # Image
+    57d5a4d4-ec7a-49df-8759-4c678060fb0b: cardImage # cardImage
     66c31483-7f68-4b9a-8a8f-f0316059563d: 'Contact Form' # Contact Form
     69f371e4-72a6-4502-8956-e95f058cb3e5: Image # Image
     71de84fd-bd15-448e-a05f-1ce4576c49c9: 'Contact Aarschot' # Contact Aarschot
@@ -37,10 +49,17 @@ meta:
     655c5b6d-fef5-4f83-8fbf-5be4817d5682: Default # Default
     928e5be4-da9c-43e7-bd8c-2f3f12106e61: Beschrijving # Beschrijving
     3073bef6-89df-487d-954d-5500268f9706: Melding # Melding
+    3387e151-0efd-4a63-b79d-0590657d081a: cardButtonText # cardButtonText
     3799f821-2eed-4c8d-9fc0-7b7d9dcd26bc: Default # Default
     13423e1e-608d-48a0-ae28-36774b3a7022: 'Verwijzers Overview' # Verwijzers Overview
+    22054a9e-cad5-42f0-ac5b-48a8a2c0c5c3: 'Homepage Categories' # Homepage Categories
     48641fd7-a4de-4118-ad1b-6f98237d8f7d: Team # Team
+<<<<<<< HEAD
     78103ee9-2c1b-48fb-9c81-dd6168a24413: Vacatures # Vacatures
+=======
+    72406be5-8149-4003-a8d7-03d18a95dba1: sponsor # sponsor
+    345322f5-8924-4e3a-85b5-a9db7bdcfa10: cardTitle # cardTitle
+>>>>>>> a2590b91106d02534f138a9378bac5b0335abdfb
     386196f2-464b-45fb-aa90-7167868ac034: 'Homepage Sponsor' # Homepage Sponsor
     a390452f-2409-4f3b-a9bd-61d5555f8a6d: HeroImage # HeroImage
     af9446f6-b5a2-4cf3-b64c-eacb2c65c15e: Vereisten # Vereisten
@@ -60,6 +79,8 @@ meta:
     d2a53d27-1672-4cc2-8655-3a1a00176d66: Default # Default
     d58adfb1-7bb4-4606-9428-3499d791b8b3: Default # Default
     d909cfa3-b155-404b-80ca-b857ebb84802: Sponsors # Sponsors
+    d6951c59-543a-47a7-bb10-345c0f2dc950: Default # Default
+    dcf572ea-9423-4504-b021-fd01e81b3116: Default # Default
     e3e9a72f-1058-44c6-93a0-dc88aed4c0c3: 'Contact Tienen' # Contact Tienen
     e94f01f6-b17f-406d-90ce-dba20a0474f4: 'Contact Aarschot' # Contact Aarschot
     e3485094-16f6-4b6b-99ef-a35bb1bc4fd5: 'Homepage Sponsors' # Homepage Sponsors

@@ -1,10 +1,10 @@
-columnSuffix: null
+columnSuffix: vntddbrk
 contentColumnType: string
 fieldGroup: 37a2a072-4acf-42ca-a032-cd323c6baaae # Common
-handle: image
-instructions: 'geef een foto in'
-name: Image
-searchable: true
+handle: cardimage
+instructions: ''
+name: cardImage
+searchable: false
 settings:
   allowSelfRelations: false
   allowUploads: true
@@ -16,12 +16,12 @@ settings:
   localizeRelations: false
   previewMode: full
   restrictFiles: '1'
-  selectionLabel: 'voeg een foto toe'
+  selectionLabel: ''
   showSiteMenu: true
   showUnpermittedFiles: false
-  showUnpermittedVolumes: false
+  showUnpermittedVolumes: true
   singleUploadLocationSource: 'volume:9a010872-6648-4d56-aebc-be463321e508' # assets
-  singleUploadLocationSubpath: '@webroot'
+  singleUploadLocationSubpath: ''
   source: null
   sources: '*'
   targetSiteId: null

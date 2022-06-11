@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
-handle: trajectVanHetKindOverview
-name: 'Traject van het kind Overview'
+handle: homepageCategories
+name: 'Homepage Categories'
 previewTargets:
   -
     __assoc__:
@@ -19,6 +19,6 @@ siteSettings:
   139e1254-e8ca-48b0-a68a-3545a105e1ea: # dat_vzw
     enabledByDefault: true
     hasUrls: true
-    template: _traject-kind\_index.twig
-    uriFormat: traject-van-het-kind
-type: single
+    template: _homepage/_categories/_entry
+    uriFormat: '{slug}'
+type: channel
