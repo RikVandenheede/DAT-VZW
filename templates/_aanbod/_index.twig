@@ -5,7 +5,7 @@
         <p>{{ entry.subtitle }}</p>
         <div>
             {% set cards = entry.card.all() %}   
-            {% set cards = craft.entries.section('').all() %}   
+            {% set cards = craft.entries.section('aanbod').all() %}   
             {% for card in cards %}
                 {% include "_snippets/_card.twig" %}
             {% endfor %}

@@ -1,13 +1,12 @@
 {% extends "_layout.twig" %}
-    
-{% block content %}
-    <a href="#"> {{ entry.link }} </a>
-    <h1>{{ entry.title }}</h1>
-    <p>{{ entry.intro }}</p>
-        <div>
-            {% set cards = entry.card.all() %}  
-            {% for card in cards %}
-                {% include "_snippets/_card.twig" %}
-            {% endfor %}
-        </div>
+
+{% block content %}        
+    <a href="#">Terug naar het overzicht</a>
+    <h1> {{ entry.title }} </h1>    
+    <p> {{ entry.intro}} </p>
+
+    <p> | Bij informatiefolders vindt u meer uitleg in de folder "Lorem Ipsum" </p>
+    <hr style="width:50%;text-align:left;margin-left:0" />    
+    <p>informatiefolders </p>
+    <hr style="width:50%;text-align:left;margin-left:0" />
 {% endblock %}

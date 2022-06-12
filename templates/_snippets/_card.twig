@@ -8,5 +8,5 @@
 <div class="card">
     <img src="{{ card.cardImage }}"/>   {# cardimage --> handle voor assets in een card #}
     <h4 class="card__title">{{ card.cardTitle }}</h4>
-    <button class="card__link btn btn--secondary" href=>{{card.cardButtonText}}</button>
+    <button class="card__link btn btn--secondary" href="{{ entry.getUrl() }}">{{card.cardButtonText}}</button>
 </div>
