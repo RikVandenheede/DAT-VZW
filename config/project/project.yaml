@@ -1,4 +1,4 @@
-dateModified: 1654965037
+dateModified: 1655028689
 email:
   fromEmail: rik.vandenheede0@hotmail.com
   fromName: dat_vzw
@@ -8,7 +8,6 @@ meta:
     0c011507-e992-405c-8355-f236789e88f1: Sponsors # Sponsors
     0c29af0a-a0a3-4472-b6c2-51f0809f33d1: Homepage # Homepage
     0febde84-9929-49a0-a275-b72628edd37e: 'Doelgroepen Overview' # Doelgroepen Overview
-    1d9b20df-154e-4312-ad01-5d94eb217809: Contact # Contact
     1ef7a627-b53e-42eb-8f24-b542d44f45b7: cardImage # cardImage
     1f03427e-0787-4cec-a019-10df1ed18b0d: 'Button text' # Button text
     2a9a0bb2-aca1-4cf7-986d-6f2100f184b6: Verwijzers # Verwijzers
@@ -34,36 +33,42 @@ meta:
     57d5a4d4-ec7a-49df-8759-4c678060fb0b: cardImage # cardImage
     66c31483-7f68-4b9a-8a8f-f0316059563d: 'Contact Form' # Contact Form
     69f371e4-72a6-4502-8956-e95f058cb3e5: Image # Image
-    71de84fd-bd15-448e-a05f-1ce4576c49c9: 'Contact Aarschot' # Contact Aarschot
     081cf9f3-bf92-4771-b575-43f3d13b773a: 'Ons Team' # Ons Team
     82c2a3d2-40c0-4abc-a27f-09c90157b7ad: Aanbod # Aanbod
     87db7015-5296-4b55-878d-f472d21686f7: Default # Default
+    109b3f7f-bd33-4076-be5d-e385a3a74d02: 'Contact Overview' # Contact Overview
     139e1254-e8ca-48b0-a68a-3545a105e1ea: dat_vzw # dat_vzw
     496e798f-2536-4e56-9ea3-b811738e4112: 'Ons Team Overview' # Ons Team Overview
+    502c4ebf-3544-4841-9b86-b962aff3b077: 'Contact Overview' # Contact Overview
+    549b062c-daec-43d3-8b33-61d5a72df5e0: 'Footer contact' # Footer contact
     655c5b6d-fef5-4f83-8fbf-5be4817d5682: Default # Default
     1625aecf-2f88-45be-bd48-d7adca4c21e6: 'Vacature sectie' # Vacature sectie
     3073bef6-89df-487d-954d-5500268f9706: Melding # Melding
     3387e151-0efd-4a63-b79d-0590657d081a: cardButtonText # cardButtonText
     3799f821-2eed-4c8d-9fc0-7b7d9dcd26bc: Default # Default
     6538f319-abf7-4e91-8cec-698fcabd78c2: 'Section content' # Section content
+    7105d923-f6d7-4ecb-8547-33e9a1576cdb: Logo # Logo
     13423e1e-608d-48a0-ae28-36774b3a7022: 'Verwijzers Overview' # Verwijzers Overview
     22054a9e-cad5-42f0-ac5b-48a8a2c0c5c3: 'Homepage Categories' # Homepage Categories
     48641fd7-a4de-4118-ad1b-6f98237d8f7d: Team # Team
     72406be5-8149-4003-a8d7-03d18a95dba1: sponsor # sponsor
     78103ee9-2c1b-48fb-9c81-dd6168a24413: Vacatures # Vacatures
+    333694f0-9ac5-4d3a-a8d2-84c44a7e9e3a: Default # Default
     345322f5-8924-4e3a-85b5-a9db7bdcfa10: cardTitle # cardTitle
     386196f2-464b-45fb-aa90-7167868ac034: 'Homepage Sponsor' # Homepage Sponsor
     a5334d24-b7db-4268-80fe-4ac1b5019364: Subtitle # Subtitle
     a390452f-2409-4f3b-a9bd-61d5555f8a6d: HeroImage # HeroImage
     b0e9e8f6-5b6a-40c1-a0cf-b736802777b0: 'Ons Team Overview' # Ons Team Overview
     b38d8e60-f5e0-4182-9c15-6ed75c6ace53: 'Public Schema' # Public Schema
+    b51b712a-f40c-4a77-b637-ef850aac7471: text # text
+    b5272fa0-e540-4869-82ee-d43c32df6a49: 'Contact info' # Contact info
     ba61c9d3-f20b-4b65-bb39-001e11577fd2: Intro # Intro
     ba92d822-4196-43fb-b713-78499f587a0c: Blog # Blog
     be92afd4-5092-4ec2-8aff-7abe03a9e8ac: 'Traject van het kind Overview' # Traject van het kind Overview
     c0b6f8e5-d45b-4269-9445-61b3e4287cc5: 'Traject van het kind' # Traject van het kind
-    c059b647-3868-4e91-9c7e-a0b34036f257: 'Contact Tienen' # Contact Tienen
     c12eda79-3a9a-4866-b9df-ce89c0124591: vacatures # vacatures
     c81b6045-dcd0-401d-9cbc-326376bc872c: dat_vzw # dat_vzw
+    c8957d2f-56dc-42ee-8d02-2b7cdb3e8c73: ContactInfo # ContactInfo
     cbcb4f40-1260-4047-9d2a-9ae47c2977db: New # New
     cc66b5fb-c27d-4142-93b1-cd79b23c3f1b: 'Verwijzers Overview' # Verwijzers Overview
     ceceb5b2-d278-4ee1-925a-5b98bd83e3da: Default # Default
@@ -72,13 +77,12 @@ meta:
     d909cfa3-b155-404b-80ca-b857ebb84802: Sponsors # Sponsors
     d6951c59-543a-47a7-bb10-345c0f2dc950: Default # Default
     dcf572ea-9423-4504-b021-fd01e81b3116: Default # Default
-    e3e9a72f-1058-44c6-93a0-dc88aed4c0c3: 'Contact Tienen' # Contact Tienen
-    e94f01f6-b17f-406d-90ce-dba20a0474f4: 'Contact Aarschot' # Contact Aarschot
+    e6dff488-d063-4ac1-b476-69b8ea789d28: Footer # Footer
     e3485094-16f6-4b6b-99ef-a35bb1bc4fd5: 'Homepage Sponsors' # Homepage Sponsors
     ef6a0cfc-3825-4c16-bec8-eb45986cb2c6: Link # Link
     f7f0705b-3087-4452-95e8-da36950b3c59: 'Traject van het kind Overview' # Traject van het kind Overview
+    f844a8cd-4f91-4dd9-80a7-3f6f14eb1371: Contact # Contact
     f9815606-55a0-417a-b7d3-61b347c4be90: 'Aanbod Overwiew' # Aanbod Overwiew
-    fec971fd-7f13-4818-8bbc-4b497a1f6e78: Contact # Contact
 plugins:
   dumper:
     edition: standard

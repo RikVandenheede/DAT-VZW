@@ -1,5 +1,5 @@
 fieldLayouts:
-  853192b7-254d-45a1-9717-fa9141218c59:
+  4735af90-47e3-4d72-a555-ee103cf1d199:
     tabs:
       -
         elements:
@@ -27,25 +27,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 4f1cbcaf-6c05-4000-9f90-3c0abe53704d # Subtitle
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: 6e006b4d-da92-4d85-9241-2e0904a8f6cd # Paragraph
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: 0036f8cb-73f6-426c-962b-f39d99c441f4 # Button
+            fieldUid: c8957d2f-56dc-42ee-8d02-2b7cdb3e8c73 # ContactInfo
             instructions: null
             label: null
             required: false
@@ -55,11 +37,11 @@ fieldLayouts:
             width: 100
         name: Content
         sortOrder: 1
-handle: contact
+handle: default
 hasTitleField: true
-name: Contact
-section: fec971fd-7f13-4818-8bbc-4b497a1f6e78 # Contact
+name: Default
+section: f844a8cd-4f91-4dd9-80a7-3f6f14eb1371 # Contact
 sortOrder: 1
-titleFormat: '{section.name|raw}'
+titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

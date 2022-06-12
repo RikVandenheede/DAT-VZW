@@ -1,6 +1,0 @@
-adminOnly: 1
-allowSources: '*'
-enabledSiteGroups: '*'
-handle: footer
-levels: 1
-title: Footer

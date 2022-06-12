@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
-handle: contactAarschot
-name: 'Contact Aarschot'
+handle: contact
+name: Contact
 previewTargets:
   -
     __assoc__:
@@ -19,6 +19,6 @@ siteSettings:
   139e1254-e8ca-48b0-a68a-3545a105e1ea: # dat_vzw
     enabledByDefault: true
     hasUrls: true
-    template: _contact\_contactAarschot.twig
-    uriFormat: contact-aarschot
-type: single
+    template: _contact/_entry.twig
+    uriFormat: 'contact/{slug}'
+type: channel
