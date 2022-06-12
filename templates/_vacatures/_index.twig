@@ -1,16 +1,18 @@
 {% extends "_layout.twig" %}
     
 {% block content %}
+<div class="vacatures">
     <h1>{{ entry.title }}</h1>
     <p>{{ entry.intro }}</p>
 
-
     <div>
-        <div class="cards__container ">
-            {% set cards = entry.card.all() %}
+        {% set cards = entry.card.all() %}   
+        {% set cards = craft.entries.section('vacatures').all() %}
+        <div class="vacatures__category">
             {% for card in cards %}
                 {% include "_snippets/_card.twig" %}
             {% endfor %}
         </div>
     </div>
+</div>
 {% endblock %}

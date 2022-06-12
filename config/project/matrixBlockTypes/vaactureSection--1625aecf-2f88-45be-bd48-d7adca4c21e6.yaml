@@ -1,0 +1,107 @@
+field: 9efe4b9d-7cc3-4cf5-b8a4-a87965c93a5a # Vacature informatie
+fieldLayouts:
+  1da63de5-3be9-4e27-a328-6ac5cfceca8b:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 27c5d190-c165-4b03-b184-5d8f19b4c1e5 # Section title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: a5334d24-b7db-4268-80fe-4ac1b5019364 # Subtitle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 6538f319-abf7-4e91-8cec-698fcabd78c2 # Section content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  27c5d190-c165-4b03-b184-5d8f19b4c1e5: # Section title
+    columnSuffix: dbnmkdmu
+    contentColumnType: text
+    fieldGroup: null
+    handle: sectionTitle
+    instructions: ''
+    name: 'Section title'
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  6538f319-abf7-4e91-8cec-698fcabd78c2: # Section content
+    columnSuffix: zcvbvhwa
+    contentColumnType: text
+    fieldGroup: null
+    handle: sectionContent
+    instructions: ''
+    name: 'Section content'
+    searchable: true
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: ''
+      removeEmptyTags: '1'
+      removeInlineStyles: '1'
+      removeNbsp: '1'
+      showHtmlButtonForNonAdmins: ''
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  a5334d24-b7db-4268-80fe-4ac1b5019364: # Subtitle
+    columnSuffix: xifxkzdd
+    contentColumnType: text
+    fieldGroup: null
+    handle: subTitle
+    instructions: ''
+    name: Subtitle
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: vaactureSection
+name: 'Vacature sectie'
+sortOrder: 1

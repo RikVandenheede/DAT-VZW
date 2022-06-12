@@ -1,13 +1,16 @@
 {% extends "_layout.twig" %}
     
 {% block content %}
+<section class="homepage">
     {% if entry.melding %}
-        <div>
-            <p>{{entry.melding}}</p>
+        <div class="homepage__notification">
+            <div class="homepage__notification--wrapper">
+                <p>{{entry.melding}}</p>
+            </div>
         </div>
     {% endif %}
 
-    <div>
+    <div class="homepage__hero">
         {% include "_snippets/_hero.twig" %}
         <div>
             <a href="{{siteUrl}}">{{svg('@webroot/assets/Visual-graphic_2022-06-10-163019_jelw.svg')| attr({class:'w-full max-w-logo'})}}</a>
@@ -26,8 +29,9 @@
     </div> #}
 
     {# {% include '_snippets/_items/_card.twig' with {
-                classes: 'js-filter-item',
-                id: entry.eventcategorie.ids|join(", ")
-            } %} #}
+        classes: 'js-filter-item',
+        id: entry.eventcategorie.ids|join(", ")
+    } %} #}
+</section>
     
 {% endblock %}

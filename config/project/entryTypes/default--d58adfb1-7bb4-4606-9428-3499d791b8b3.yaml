@@ -10,8 +10,8 @@ fieldLayouts:
             class: null
             disabled: false
             id: null
-            instructions: null
-            label: null
+            instructions: ''
+            label: 'Vacature titel'
             max: null
             min: null
             name: null
@@ -27,7 +27,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 928e5be4-da9c-43e7-bd8c-2f3f12106e61 # Beschrijving
+            fieldUid: 1ef7a627-b53e-42eb-8f24-b542d44f45b7 # cardImage
             instructions: null
             label: null
             required: false
@@ -36,7 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: af9446f6-b5a2-4cf3-b64c-eacb2c65c15e # Vereisten
+            fieldUid: 345322f5-8924-4e3a-85b5-a9db7bdcfa10 # cardTitle
             instructions: null
             label: null
             required: false
@@ -44,8 +44,39 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
-        name: Content
+          -
+            fieldUid: 3387e151-0efd-4a63-b79d-0590657d081a # cardButtonText
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Card
         sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: 9efe4b9d-7cc3-4cf5-b8a4-a87965c93a5a # Vacature informatie
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 962a4de7-c115-4643-ad6e-73cf143efccf
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Vacature inhoud'
+        sortOrder: 2
 handle: default
 hasTitleField: true
 name: Default

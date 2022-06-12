@@ -121,6 +121,8 @@ ul {
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
   padding: 10px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .btn--primary {
@@ -166,8 +168,7 @@ ul {
 .card__img {
   display: block;
   width: 100%;
-  height: 200px;
-  background-color: #e9e9e9;
+  max-height: 200px;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -182,6 +183,7 @@ main {
   margin: 0 auto;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 h1,
@@ -191,8 +193,14 @@ h4,
 h5,
 li,
 p,
-li {
+li,
+a {
   font-family: "Ubuntu", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
 }
 
 h1 {
@@ -244,6 +252,10 @@ h1::before {
 .header-topmenu__listitem {
   cursor: pointer;
   margin-right: 4rem;
+}
+
+.header-topmenu__listitem a {
+  color: #fff;
 }
 
 .header-topmenu__listitem:last-child {
@@ -310,6 +322,10 @@ h1::before {
   z-index: 10;
 }
 
+.header-mainmenu__listitem a:last-child {
+  padding: 10px 20px;
+}
+
 .header-mainmenu__listitem .submenu {
   position: absolute;
   top: 75px;
@@ -367,6 +383,34 @@ h1::before {
       flex-wrap: wrap;
 }
 
+.homepage__notification {
+  height: 75px;
+  background-color: #fdf0d8;
+  position: absolute;
+  top: 139px;
+  left: 0;
+  right: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.homepage__notification--wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1440px;
+  padding: 0 70px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.homepage__hero {
+  margin: 100px 0 0 0;
+}
+
 .homepage__category {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -384,6 +428,26 @@ h1::before {
 }
 
 .homepage__category .card:last-child {
+  margin: 0;
+}
+
+.vacatures__category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.vacatures__category .card {
+  width: 32%;
+  margin: 0 1% 0 0;
+}
+
+.vacatures__category .card:last-child {
   margin: 0;
 }
 /*# sourceMappingURL=main.css.map */

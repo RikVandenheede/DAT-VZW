@@ -1,5 +1,5 @@
 fieldLayouts:
-  a59d4450-d30c-436f-b287-e9d6be1bfb87:
+  4279d7f1-d894-41d8-b7df-35dbc25f0c19:
     tabs:
       -
         elements:
@@ -28,11 +28,11 @@ fieldLayouts:
             width: 100
         name: Content
         sortOrder: 1
-handle: contactTienen
+handle: contactOverview
 hasTitleField: true
-name: 'Contact Tienen'
-section: c059b647-3868-4e91-9c7e-a0b34036f257 # Contact Tienen
+name: 'Contact Overview'
+section: 109b3f7f-bd33-4076-be5d-e385a3a74d02 # Contact Overview
 sortOrder: 1
-titleFormat: null
+titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

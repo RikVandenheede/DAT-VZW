@@ -3,6 +3,7 @@ main {
   padding: 0 70px;
   margin: 0 auto;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 h1,
@@ -12,8 +13,14 @@ h4,
 h5,
 li,
 p,
-li {
+li,
+a {
   font-family: $font-primary;
+}
+
+a {
+  text-decoration: none;
+  color: $color-black;
 }
 
 h1 {
