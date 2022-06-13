@@ -10,5 +10,5 @@
 <div class="card">
     <img class="card__img" src="{{ card.cardimage.one().url }}"/>
     <h4 class="card__title">{{ card.cardTitle }}</h4>
-    <button class="card__link btn btn--secondary" href="{{ entry.getUrl() }}">{{card.cardButtonText}}</button>
+    <a class="card__link btn btn--secondary" href="{{ card.getUrl() }}">{{card.cardButtonText}}</a>
 </div>
