@@ -2,3 +2,32 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+.ons-team-detail {
+  &__hero {
+    margin-top: 50px;
+    display: flex;
+
+    p {
+      margin-top: 20px;
+    }
+
+    h3 {
+      margin-top: 20px;
+    }
+
+    &__img {
+      min-width: 35%;
+      margin-left: 100px;
+
+      img {
+        object-fit: contain;
+        width: 100%;
+      }
+    }
+  }
+
+  &__specs {
+    margin-top: 50px;
+  }
+}

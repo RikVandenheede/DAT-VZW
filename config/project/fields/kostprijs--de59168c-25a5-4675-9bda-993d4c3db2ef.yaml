@@ -1,0 +1,20 @@
+columnSuffix: vuajugwf
+contentColumnType: integer(10)
+fieldGroup: 2bd3e48e-5ee8-4734-b299-8960433eabd0 # Contactinfo
+handle: kostprijs
+instructions: ''
+name: kostprijs
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: null
+  max: null
+  min: 0
+  prefix: null
+  previewCurrency: ''
+  previewFormat: decimal
+  size: null
+  suffix: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

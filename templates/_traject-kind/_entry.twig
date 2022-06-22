@@ -1,9 +1,8 @@
 {% extends "_layout.twig" %}
 
 {% block content %}        
-    <a href="/traject-van-het-kind">Terug naar het overzicht</a>
-    <h1> {{ entry.title }} </h1>    
-    <p> {{ entry.intro}} </p>
+    <a class="goBackLink" href="/traject-van-het-kind">Terug naar het overzicht</a>
+    {% include "_snippets/_hero.twig" %}
 
     <p> | Bij informatiefolders vindt u meer uitleg in de folder "Lorem Ipsum" </p>
     <hr style="width:50%;text-align:left;margin-left:0" />    

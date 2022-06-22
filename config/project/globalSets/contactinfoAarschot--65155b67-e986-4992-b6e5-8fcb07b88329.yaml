@@ -1,0 +1,73 @@
+fieldLayouts:
+  384d8a33-a624-4a3a-a4b6-3c17895ed1c4:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: a92a765a-d516-4a48-bc88-8ad04757223f # Straat + nummer
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 7bc31ae1-1415-4dcc-8e79-68b3944ca7cf # Gemeente
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 50
+          -
+            fieldUid: 6303c7c3-58b9-46d6-83e4-e738046d7607 # Postcode
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 50
+          -
+            fieldUid: de3ef119-944a-47cb-80f1-3bbea87e6cf4 # Telefoonnummer
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 50
+          -
+            fieldUid: de59168c-25a5-4675-9bda-993d4c3db2ef # kostprijs
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 50
+          -
+            fieldUid: 76cf9c5b-c62e-4e01-90b4-f53243fdef29 # email
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: a32cebe7-6d6c-4510-86a0-44beb79e70dc # openingsuren
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Contactinfo
+        sortOrder: 1
+handle: contactinfoAarschot
+name: 'Contactinfo Aarschot'
+sortOrder: 3

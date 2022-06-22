@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: e512020f-8b3b-48ea-880c-86ed4fc6a05e # ons team
+handle: personalInfo
+instructions: ''
+name: 'Personal Info'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_personalinfo}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

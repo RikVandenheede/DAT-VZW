@@ -20,5 +20,5 @@ siteSettings:
     enabledByDefault: true
     hasUrls: true
     template: _verwijzers\_index.twig
-    uriFormat: verwijzers-overview
+    uriFormat: verwijzers
 type: single

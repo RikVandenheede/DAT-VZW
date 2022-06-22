@@ -1,14 +1,17 @@
-{# <div class="card">
-    <img src="{{ card.image.one().url }}"/>  
-    <h4 class="card__title">{{ card.cardtitle }}</h4>
-    <button class="card__link btn btn--secondary" href=>{{card.cardbuttontext}}</button>
-</div> #}
-
-{# {{d(card.image.one())}} #}
+{% if correctLink is defined %}
+    {% set linkto = correctLink|slice(0, -1)|join("-") %}
+{% endif %}
 
 
 <div class="card">
-    <img class="card__img" src="{{ card.cardimage.one().url }}"/>
-    <h4 class="card__title">{{ card.cardTitle }}</h4>
-    <a class="card__link btn btn--secondary" href="{{ card.getUrl() }}">{{card.cardButtonText}}</a>
+    {% if card.cardimage.one() %}
+        <img class="card__img" src="{{ card.cardimage.one().url }}"/>
+    {% endif %}
+        <h4 class="card__title">{{ card.cardTitle }}</h4>
+
+    {% if linkto is defined %}
+        <a class="card__link btn btn--secondary" href="{{ linkto }}">{{card.cardButtonText}}</a>
+    {% else %}
+        <a class="card__link btn btn--secondary" href="{{ card.getUrl() }}">{{card.cardButtonText}}</a>
+    {% endif %}
 </div>

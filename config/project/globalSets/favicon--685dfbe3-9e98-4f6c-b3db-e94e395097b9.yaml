@@ -1,0 +1,19 @@
+fieldLayouts:
+  7b77d846-f753-47cd-bb45-aa9b69c076ad:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 62b8cd3e-7f7d-4945-ac74-b33b2d2dc8a7 # faviconFile
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: icon
+        sortOrder: 1
+handle: favicon
+name: favicon
+sortOrder: 4

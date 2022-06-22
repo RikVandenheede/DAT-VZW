@@ -1,0 +1,12 @@
+columnSuffix: mhjqxdiz
+contentColumnType: string
+fieldGroup: 2bd3e48e-5ee8-4734-b299-8960433eabd0 # Contactinfo
+handle: email
+instructions: ''
+name: email
+searchable: false
+settings:
+  placeholder: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Email

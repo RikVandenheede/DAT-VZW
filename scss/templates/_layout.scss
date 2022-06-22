@@ -1,9 +1,15 @@
 main {
   max-width: 1440px;
+  width: 1440px;
   padding: 0 70px;
-  margin: 0 auto;
+  margin: 50px auto;
   box-sizing: border-box;
-  overflow-x: hidden;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 h1,
@@ -26,6 +32,7 @@ a {
 h1 {
   position: relative;
   display: inline;
+  font-size: 2rem;
 
   &::before {
     content: "";
@@ -38,4 +45,11 @@ h1 {
     z-index: -1;
     border-radius: 2px;
   }
+}
+
+.goBackLink {
+  margin: 20px 0;
+  display: block;
+  color: $color-secondary;
+  text-decoration: underline;
 }

@@ -1,0 +1,19 @@
+{% extends "_layout.twig" %}
+
+{% block content %}
+<section class="ons-team-detail">
+    <div class="ons-team-detail__hero">
+        {% include "_snippets/_hero.twig" %}
+        <div class="ons-team-detail__hero__img">
+            <img class="" src="{{ entry.cardimage.one().url }}"/>
+        </div>
+    </div>
+
+    <div class="ons-team-detail__specs">
+        {% for personalInfo in entry.personalInfo.all() %}
+            {% include "_snippets/_personalInfo.twig" %}
+        {% endfor %}
+    </div>
+    
+</section>
+{% endblock %}

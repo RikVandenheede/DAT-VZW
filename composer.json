@@ -1,5 +1,6 @@
 {
     "require": {
+        "akagibi/myfavicon": "1.0.2",
         "craftcms/cms": "^3.7.26",
         "craftcms/redactor": "2.10.8",
         "studioespresso/craft-dumper": "2.0.0",

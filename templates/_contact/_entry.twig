@@ -1,6 +1,9 @@
 {% extends "_layout.twig" %}
 
 {% block content %}
-    <h1>Contacteer {{ entry.title }}</h1>
+    <a class="goBackLink" href="/contact">Terug naar het overzicht</a>
+    {% include "_snippets/_hero.twig" with {
+        extraText: "Contacteer"
+    } %}
     {{craft.formie.renderForm("contact")}}
 {% endblock %}

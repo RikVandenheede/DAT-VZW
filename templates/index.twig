@@ -6,6 +6,7 @@
         <div class="homepage__notification">
             <div class="homepage__notification--wrapper">
                 <p>{{entry.melding}}</p>
+                <span id="closeMarker">&#10006;<span>
             </div>
         </div>
     {% endif %}
@@ -13,25 +14,29 @@
     <div class="homepage__hero">
         {% include "_snippets/_hero.twig" %}
         <div>
-            <a href="{{siteUrl}}">{{svg('@webroot/assets/Visual-graphic_2022-06-10-163019_jelw.svg')| attr({class:'w-full max-w-logo'})}}</a>
+            {{svg('@webroot/assets/Visual-graphic_2022-06-10-163019_jelw.svg')}}
         </div>
     </div>
 
     <div class="homepage__category">
         {% set cards = craft.entries.section("homepageCategories").all() %}
         {% for card in cards %}
-            {% include "_snippets/_card.twig" %}
+            {% include "_snippets/_card.twig" with {
+                correctLink: card.slug|split("-")
+            } %}
         {% endfor %}
     </div>
 
-    {# <div>
-        {% include "_snippets/_homepageSponsors.twig" %}
-    </div> #}
+    <div class="homepage__sponsors__title">
+        <h3>Onze trouwe sponsors</h3>
+    </div>
 
-    {# {% include '_snippets/_items/_card.twig' with {
-        classes: 'js-filter-item',
-        id: entry.eventcategorie.ids|join(", ")
-    } %} #}
+    <div class="homepage__sponsors">
+        {% set sponsors = craft.entries.section("sponsors").all() %}
+        {% for sponsor in sponsors %}
+            {% include "_snippets/_sponsors.twig" %}
+        {% endfor %}
+    </div>
 </section>
     
 {% endblock %}

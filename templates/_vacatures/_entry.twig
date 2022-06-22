@@ -1,11 +1,10 @@
 {% extends "_layout.twig" %}
     
 {% block content %}
-    <h1>{{ entry.title }}</h1>
-    {% set blocks = entry.vacatureInformatie.all() %}
-        {% for block in blocks %}
-            <h2>{{ block.sectionTitle }}</h2>
-            <h3>{{ block.subTitle }}</h3>
-            <p>{{ block.sectionContent }}</p>
-        {% endfor %}
+    <a class="goBackLink" href="/vacatures">Terug naar het overzicht</a>
+    {% include "_snippets/_hero.twig" %}
+
+    <div class="">
+        {% include "_snippets/_vacatureContentBuilder/_vacatureContent.twig" %}
+    </div>
 {% endblock %}

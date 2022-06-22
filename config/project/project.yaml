@@ -1,4 +1,4 @@
-dateModified: 1655047859
+dateModified: 1655913706
 email:
   fromEmail: rik.vandenheede0@hotmail.com
   fromName: dat_vzw
@@ -7,21 +7,23 @@ meta:
   __names__:
     0c011507-e992-405c-8355-f236789e88f1: Sponsors # Sponsors
     0c29af0a-a0a3-4472-b6c2-51f0809f33d1: Homepage # Homepage
+    0d421cab-f77f-4ba7-b7cd-3c2bd1199410: 'Section text' # Section text
     0febde84-9929-49a0-a275-b72628edd37e: 'Doelgroepen Overview' # Doelgroepen Overview
     1ef7a627-b53e-42eb-8f24-b542d44f45b7: cardImage # cardImage
     1f03427e-0787-4cec-a019-10df1ed18b0d: 'Button text' # Button text
     2a9a0bb2-aca1-4cf7-986d-6f2100f184b6: Verwijzers # Verwijzers
+    2bd3e48e-5ee8-4734-b299-8960433eabd0: Contactinfo # Contactinfo
     02ddac02-f70c-4b92-8473-3d67e79e92df: 'Traject van het kind' # Traject van het kind
     2f02eede-a297-4a5f-8f80-87e56651c99b: 'Vacatures overview' # Vacatures overview
     3be9f94f-b099-4aeb-ab8a-27b99268807f: 'Second Header' # Second Header
     3e2b268c-fd28-4ee8-8cae-8dab41dc9dbb: 'Doelgroepen Overview' # Doelgroepen Overview
-    3fe36747-cd19-43f4-ab43-3990abff9e6f: Card # Card
+    4cf63765-8ef6-429e-af42-e5301205d864: Profession # Profession
     4f1cbcaf-6c05-4000-9f90-3c0abe53704d: Subtitle # Subtitle
     5e00612a-24b9-494d-a4d8-eae8e7a1be6d: 'Card Title' # Card Title
-    6b944a66-8b87-4313-b923-ca67c8633bda: Sponors # Sponors
     6e006b4d-da92-4d85-9241-2e0904a8f6cd: Paragraph # Paragraph
+    7bc31ae1-1415-4dcc-8e79-68b3944ca7cf: Gemeente # Gemeente
+    7cc6d231-705d-4632-9b44-0ad7e83ad00c: 'Section subtitle' # Section subtitle
     7ce33ffe-39c3-4e09-a3b0-993c7187a718: Homepage # Homepage
-    8ed64393-9836-43b7-a4a9-0f30ae0e31f8: Card # Card
     9a010872-6648-4d56-aebc-be463321e508: assets # assets
     9efe4b9d-7cc3-4cf5-b8a4-a87965c93a5a: 'Vacature informatie' # Vacature informatie
     12e31e39-5cd2-4a23-b1be-aa91e3ddb0d5: 'Aanbod Overwiew' # Aanbod Overwiew
@@ -31,39 +33,47 @@ meta:
     37a2a072-4acf-42ca-a032-cd323c6baaae: Common # Common
     46f2d4d1-ce5b-4c81-9426-b501551eb2de: 'Vacatures overview' # Vacatures overview
     57d5a4d4-ec7a-49df-8759-4c678060fb0b: cardImage # cardImage
+    62b8cd3e-7f7d-4945-ac74-b33b2d2dc8a7: faviconFile # faviconFile
     66c31483-7f68-4b9a-8a8f-f0316059563d: 'Contact Form' # Contact Form
     69f371e4-72a6-4502-8956-e95f058cb3e5: Image # Image
+    76cf9c5b-c62e-4e01-90b4-f53243fdef29: email # email
     081cf9f3-bf92-4771-b575-43f3d13b773a: 'Ons Team' # Ons Team
     82c2a3d2-40c0-4abc-a27f-09c90157b7ad: Aanbod # Aanbod
-    87db7015-5296-4b55-878d-f472d21686f7: Default # Default
     109b3f7f-bd33-4076-be5d-e385a3a74d02: 'Contact Overview' # Contact Overview
     139e1254-e8ca-48b0-a68a-3545a105e1ea: dat_vzw # dat_vzw
     496e798f-2536-4e56-9ea3-b811738e4112: 'Ons Team Overview' # Ons Team Overview
     502c4ebf-3544-4841-9b86-b962aff3b077: 'Contact Overview' # Contact Overview
-    549b062c-daec-43d3-8b33-61d5a72df5e0: 'Footer contact' # Footer contact
     655c5b6d-fef5-4f83-8fbf-5be4817d5682: Default # Default
-    1625aecf-2f88-45be-bd48-d7adca4c21e6: 'Vacature sectie' # Vacature sectie
+    685dfbe3-9e98-4f6c-b3db-e94e395097b9: favicon # favicon
+    1625aecf-2f88-45be-bd48-d7adca4c21e6: 'Vacature section title' # Vacature section title
+    2454b318-2ad7-4c08-8bb1-0a8f1c709ba7: 'Vacature section subtitle' # Vacature section subtitle
     3073bef6-89df-487d-954d-5500268f9706: Melding # Melding
     3387e151-0efd-4a63-b79d-0590657d081a: cardButtonText # cardButtonText
     3799f821-2eed-4c8d-9fc0-7b7d9dcd26bc: Default # Default
+    5967e757-e0e6-40eb-9667-50227de3a591: 'Block Description' # Block Description
+    6303c7c3-58b9-46d6-83e4-e738046d7607: Postcode # Postcode
     6538f319-abf7-4e91-8cec-698fcabd78c2: 'Section content' # Section content
     7105d923-f6d7-4ecb-8547-33e9a1576cdb: Logo # Logo
     13423e1e-608d-48a0-ae28-36774b3a7022: 'Verwijzers Overview' # Verwijzers Overview
     22054a9e-cad5-42f0-ac5b-48a8a2c0c5c3: 'Homepage Categories' # Homepage Categories
     48641fd7-a4de-4118-ad1b-6f98237d8f7d: Team # Team
+    65155b67-e986-4992-b6e5-8fcb07b88329: 'Contactinfo Aarschot' # Contactinfo Aarschot
     72406be5-8149-4003-a8d7-03d18a95dba1: sponsor # sponsor
     78103ee9-2c1b-48fb-9c81-dd6168a24413: Vacatures # Vacatures
     333694f0-9ac5-4d3a-a8d2-84c44a7e9e3a: Default # Default
     345322f5-8924-4e3a-85b5-a9db7bdcfa10: cardTitle # cardTitle
-    386196f2-464b-45fb-aa90-7167868ac034: 'Homepage Sponsor' # Homepage Sponsor
+    386196f2-464b-45fb-aa90-7167868ac034: Sponsor # Sponsor
+    a32cebe7-6d6c-4510-86a0-44beb79e70dc: openingsuren # openingsuren
+    a92a765a-d516-4a48-bc88-8ad04757223f: 'Straat + nummer' # Straat + nummer
     a5334d24-b7db-4268-80fe-4ac1b5019364: Subtitle # Subtitle
     a390452f-2409-4f3b-a9bd-61d5555f8a6d: HeroImage # HeroImage
     b0e9e8f6-5b6a-40c1-a0cf-b736802777b0: 'Ons Team Overview' # Ons Team Overview
     b38d8e60-f5e0-4182-9c15-6ed75c6ace53: 'Public Schema' # Public Schema
     b51b712a-f40c-4a77-b637-ef850aac7471: text # text
-    b5272fa0-e540-4869-82ee-d43c32df6a49: 'Contact info' # Contact info
+    b78255e8-d163-4080-bcf9-b103c6d48b19: 'Personal Info' # Personal Info
+    b4088028-53a6-4880-a4dd-05aa4c16a280: 'Contactinfo Tienen' # Contactinfo Tienen
     ba61c9d3-f20b-4b65-bb39-001e11577fd2: Intro # Intro
-    ba92d822-4196-43fb-b713-78499f587a0c: Blog # Blog
+    bce973cf-864a-4970-8bb7-9a59c870e3d7: 'Block Title' # Block Title
     be92afd4-5092-4ec2-8aff-7abe03a9e8ac: 'Traject van het kind Overview' # Traject van het kind Overview
     c0b6f8e5-d45b-4269-9445-61b3e4287cc5: 'Traject van het kind' # Traject van het kind
     c12eda79-3a9a-4866-b9df-ce89c0124591: vacatures # vacatures
@@ -73,13 +83,17 @@ meta:
     cc66b5fb-c27d-4142-93b1-cd79b23c3f1b: 'Verwijzers Overview' # Verwijzers Overview
     ceceb5b2-d278-4ee1-925a-5b98bd83e3da: Default # Default
     d2a53d27-1672-4cc2-8655-3a1a00176d66: Default # Default
+    d8cd7c9b-a27e-4995-8e8e-77cf53e98808: 'Call to action' # Call to action
     d58adfb1-7bb4-4606-9428-3499d791b8b3: Default # Default
     d909cfa3-b155-404b-80ca-b857ebb84802: Sponsors # Sponsors
     d6951c59-543a-47a7-bb10-345c0f2dc950: Default # Default
-    dcf572ea-9423-4504-b021-fd01e81b3116: Default # Default
-    e6dff488-d063-4ac1-b476-69b8ea789d28: Footer # Footer
-    e3485094-16f6-4b6b-99ef-a35bb1bc4fd5: 'Homepage Sponsors' # Homepage Sponsors
+    d301599e-ad42-46a4-a4f0-b45ff0e8ad08: 'Personal info' # Personal info
+    de3ef119-944a-47cb-80f1-3bbea87e6cf4: Telefoonnummer # Telefoonnummer
+    de59168c-25a5-4675-9bda-993d4c3db2ef: kostprijs # kostprijs
+    e512020f-8b3b-48ea-880c-86ed4fc6a05e: 'ons team' # ons team
+    e3485094-16f6-4b6b-99ef-a35bb1bc4fd5: Sponsors # Sponsors
     ef6a0cfc-3825-4c16-bec8-eb45986cb2c6: Link # Link
+    f5b8c5b2-9b72-4bab-ae99-ea728931df53: 'Vacature section text' # Vacature section text
     f7f0705b-3087-4452-95e8-da36950b3c59: 'Traject van het kind Overview' # Traject van het kind Overview
     f844a8cd-4f91-4dd9-80a7-3f6f14eb1371: Contact # Contact
     f9815606-55a0-417a-b7d3-61b347c4be90: 'Aanbod Overwiew' # Aanbod Overwiew
@@ -93,6 +107,10 @@ plugins:
     enabled: true
     licenseKey: 4P07E5QIG4OKWGVA3N8CYKTQ
     schemaVersion: 1.2.8
+  myfavicon:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   navigate:
     edition: standard
     enabled: true

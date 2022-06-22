@@ -2,16 +2,38 @@
 
 {% block content %}
 <section class="contact">
-    <h1 class="contact__title">{{ entry.title }}</h1>
+    {% include "_snippets/_hero.twig" %}
 
     {% set centrums = craft.entries.section("contact") %}
     {% for centrum in centrums %}
-    <div class="centrum">
-        <h2 class="centrum__title">{{centrum.title}}</h2>
-        <div class="centrum__info">{{centrum.contactinfo}}</div>
-        <a class="btn btn--primary" href="{{ centrum.getUrl() }}">{{"Contacteer"}}</a>
-    </div>
+    {# <div class="centrum-container"> #}
+        <div class="centrum">
+            <div>
+                <h2 class="centrum__title">{{centrum.title}}</h2>
+                <div class="centrum__info">
+                    {% if centrum.gemeente == "Aarschot" %}
+                        <p>Telefoonnummer: {{contactinfoAarschot.telefoonnummer}}</p>
+                        <p>Adres: {{contactinfoAarschot.straatNummer ~ ", " ~ contactinfoAarschot.postcode ~ " " ~ contactinfoAarschot.gemeente }}</p>
+                        <p>Openingsuren: {{contactinfoAarschot.openingsuren}}</p>
+                        <p>Kostprijs: {{contactinfoAarschot.kostprijs}}</p>
+                    {% else %}
+                        <p>Telefoonnummer: {{contactinfoTienen.telefoonnummer}}</p>
+                        <p>Adres: {{contactinfoTienen.straatNummer ~ ", " ~ contactinfoTienen.postcode ~ " " ~ contactinfoTienen.gemeente }}</p>
+                        <p>Openingsuren: {{contactinfoTienen.openingsuren}}</p>
+                        <p>Kostprijs: {{contactinfoTienen.kostprijs}}</p>
+                    {% endif %}
+                </div>
+                <a class="btn btn--primary" href="{{ centrum.getUrl() }}">{{"Contacteer"}}</a>
+            </div>
+            
+            {% if centrum.image.one() %}
+                <div>
+                    <img class="contact__img" src="{{ centrum.image.one().url }}"/>
+                </div>
+            {% endif %}
+        </div>
     {% endfor %}
+    {# </div> #}
+   
 </section>
-
 {% endblock content %}

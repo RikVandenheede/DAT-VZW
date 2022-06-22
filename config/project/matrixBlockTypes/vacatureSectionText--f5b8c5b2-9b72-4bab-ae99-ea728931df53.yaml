@@ -1,0 +1,49 @@
+field: 9efe4b9d-7cc3-4cf5-b8a4-a87965c93a5a # Vacature informatie
+fieldLayouts:
+  34ca693f-83fb-4998-ac1c-4c2b4ac984c8:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 0d421cab-f77f-4ba7-b7cd-3c2bd1199410 # Section text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  0d421cab-f77f-4ba7-b7cd-3c2bd1199410: # Section text
+    columnSuffix: bbbxdlai
+    contentColumnType: text
+    fieldGroup: null
+    handle: sectionText
+    instructions: ''
+    name: 'Section text'
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: ''
+      removeEmptyTags: '1'
+      removeInlineStyles: '1'
+      removeNbsp: '1'
+      showHtmlButtonForNonAdmins: ''
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+handle: vacatureSectionText
+name: 'Vacature section text'
+sortOrder: 3

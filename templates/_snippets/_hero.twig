@@ -1,5 +1,25 @@
-<div>
-    <h1>{{ entry.title }}</h1>
-    <h2>{{ entry.subtitle }}</h2>
-    <p>{{ entry.paragraph }}</p>
+<div class="hero">
+    <div class="hero__title">
+        {% if extraText is defined %}
+            <h1>{{ extraText ~ " " ~ entry.title }}</h1>
+        {% else %}
+            <h1>{{ entry.title }}</h1>
+        {% endif %}
+    </div>
+
+    {% if entry.subtitle %}
+        <h2 class="hero__subtitle">{{ entry.subtitle }}</h2>
+    {% endif %}
+
+    {% if entry.profession %}
+        <h3 class="hero__profession">{{  "Arts" }}</h3>
+    {% endif %}
+
+    {% if entry.paragraph %}
+        <p class="hero__paragraph">{{ entry.paragraph }}</p>
+    {% endif %}
+
+    {% if entry.intro %}
+        <p class="hero__intro">{{ entry.intro }}</p>
+    {% endif %}
 </div>

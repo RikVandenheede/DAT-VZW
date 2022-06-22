@@ -20,5 +20,5 @@ siteSettings:
     enabledByDefault: true
     hasUrls: true
     template: _contact/_index.twig
-    uriFormat: contact-overview
+    uriFormat: contact
 type: single

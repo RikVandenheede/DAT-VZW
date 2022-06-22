@@ -1,132 +1,61 @@
-<footer class="footer">
+{% set mainNavTop = craft.navigate.raw('headerNavigationTop') %}
+{% set mainNavBot = craft.navigate.raw('headerNavigationBottom') %}
 
-    <section class="footer-upper">
-        <section class="footer-links">
-        <ul class="footer-links__list">
-            <li>
-                <a>Dat vzw</a>
-            </li>
-            <li>
-                <a>Home</a>
-            </li>
-            <li>
-                <a>Agenda</a>
-            </li>
-            <li>
-                <a>Organisatie</a>
-            </li>
-            <li>
-                <a>Ons team</a>
-            </li>
-            <li>
-                <a>Werken bij dat vzw</a>
-            </li>
-            <li>
-                <a>Sponsers</a>
-            </li>
-        </ul>
-        <ul class="footer-links__list">
-            <li>
-                <a>Traject van uw kind</a>
-            </li>
-            <li>
-                <a>Aanmelding</a>
-            </li>
-            <li>
-                <a>Screening</a>
-            </li>
-            <li>
-                <a>Intake</a>
-            </li>
-            <li>
-                <a>Onderzoeken</a>
-            </li>
-            <li>
-                <a>Behandeling</a>
-            </li>
-        </ul>
-        <ul class="footer-links__list">
-            <li>
-                <a>Doelgroepen</a>
-            </li>
-            <li>
-                <a>Leeftijd</a>
-            </li>
-            <li>
-                <a>ADHD</a>
-            </li>
-            <li>
-                <a>ASS</a>
-            </li>
-            <li>
-                <a>Ontwikkeling</a>
-            </li>
-            <li>
-                <a>Beperkingen</a>
-            </li>
-        </ul>
-        <ul class="footer-links__list">
-            <li>
-                <a>Aanbod</a>
-            </li>
-            <li>
-                <a>Disciplines</a>
-            </li>
-            <li>
-                <a>Groepswerking</a>
-            </li>
-            <li>
-                <a>Ouders</a>
-            </li>
-        </ul>
-                <ul class="footer-links__list">
-            <li>
-                <a>Verwijzers</a>
-            </li>
-            <li>
-                <a>Andere hulpverlening</a>
-            </li>
-            <li>
-                <a>BO-Scholen</a>
-            </li>
-        </ul>
-    </section>
-    <section class="footer-info">
-        <nav>
-            {% include 'Logo.svg' %}
-            <ul>
-                <li>
-                    <a>Traject van uw kind</a>
-                </li>
-                <li>
-                    <a>Doelgroepen</a>
-                </li>
-                <li>
-                    <a>Aanbod</a>
-                </li>
-                <li>
-                    <a>verwijzers</a>
-                </li>
-                <li>
-                    <a>Agenda</a>
-                </li>
-            </ul>
-        </nav>
-    </section>
-    
-    </section>
-    <section class="footer-cpoyright">
-    <div> 
-        <hr /> 
-        <p><strong> PXL DVO A </strong> takes care of this</p>
-        <p>Privacybeleid &amp; Cookiebeleid</p>
-        <p>BE 0891 234 567</p>
+<footer class="footer">
+    <div class="footer-wrapper">
+        <div class="footer-links">
+                <div class="footer-links__container">
+                <a class="footer-links__title" href="{{ siteUrl }}" > {{ "dat vzw" }}</a>
+            {% for node in mainNavTop %}
+                    <a class="footer-links__children" href="{{ node.url }}" > {{ node.name }}</a>
+            {% endfor %}
+                </div>
+
+            {% for node in mainNavBot %}
+            <div class="footer-links__container">
+                    <a class="footer-links__title" href="{{ node.url }}" > {{ node.name }}</a>
+                {% for node in node.children %}
+                    <a class="footer-links__children" href="{{ node.url }}" > {{ node.name }}</a>
+                {% endfor %}
+            </div>   
+            {% endfor %}
+        </div>
+
+        <div class="footer-contact">
+            <a href="{{siteUrl}}">{{svg('@webroot/assets/Logo.svg')}}</a>
+
+            <div class="footer-contact-wrapper">
+                <div class="footer-contact__centrum">
+                    <div>
+                        <p>{{contactinfoAarschot.straatNummer}}</p>
+                        <p>{{contactinfoAarschot.postcode ~ " " ~ contactinfoAarschot.gemeente}}</p>
+                    </div>
+                    <div>
+                        <a href="tel:{{ contactinfoAarschot.telefoonnummer }}">{{contactinfoAarschot.telefoonnummer}}</a>
+                        <a href="mailto:{{ contactinfoAarschot.email }}">{{contactinfoAarschot.email}}</a>
+                    </div>
+                </div>
+
+                <div class="footer-contact__centrum">
+                    <div>
+                        <p>{{contactinfoTienen.straatNummer}}</p>
+                        <p>{{contactinfoTienen.postcode ~ " " ~ contactinfoTienen.gemeente}}</p>
+                    </div>
+                    <div>
+                        <a href="tel:{{ contactinfoTienen.telefoonnummer }}">{{contactinfoTienen.telefoonnummer}}</a>
+                        <a href="mailto:{{ contactinfoTienen.email }}">{{contactinfoTienen.email}}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyright">
+            <p><span>PXL DVOA</span> takes care of this</p>
+            <p>Privacybeleid & Cookiebeleid</p>
+            <p>BE 0891 234 567</p>
+        </div>
     </div>
-    </section>
 </footer>
 
 
-
-{% set mainNavTop = craft.navigate.raw('headerNavigationTop') %}
-{% set mainNavBot = craft.navigate.raw('headerNavigationBottom') %}
 

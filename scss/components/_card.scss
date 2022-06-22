@@ -1,15 +1,16 @@
 .cards__container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-column-gap: 20px;
+  grid-gap: 20px;
   width: 100%;
 }
 
 .card {
   border-radius: 8px;
-  padding: 20px;
+  padding: 20px 20px 35px 20px;
   border: 1px solid $color-border;
   transition: all 0.3s ease-in-out;
+  min-width: 200px;
 
   &:hover {
     border: 1px solid $color-primary;

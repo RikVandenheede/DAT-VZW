@@ -1,30 +1,78 @@
-<html lang="en-US">
+{% set lang = craft.app.language|split('-') %}
+<html lang="{{ lang[0] }}">
     <head>
+    
+        {# ONDERSTAANDE CODE IS VOOR DE FAVICON =>  https://craftsnippets.com/articles/adding-favicons-to-craft-cms-website?s=s #}
+        {% cache globally %} 
+        {% set sizesIcon = [192, 48, 32, 16] %}
+        {% set sizesAppleTouch = [180] %}
+        {% if favicon is defined and favicon['faviconFile'] is defined and favicon.faviconFile.exists() and favicon.faviconFile.one().kind == 'image' %}
+        {# link icon #}
+        {% for faviconSize in sizesIcon %}
+        {% set icon = favicon.faviconFile.one() %}
+        {% set shorterEdge = icon.width > icon.height ? icon.height : icon.width %}
+        {% if shorterEdge >= faviconSize %}
+        {% set faviconTransform = {
+            width: faviconSize,
+            height: faviconSize,
+            quality: 100,
+            position: 'center-center',
+            format: 'png',
+        } %}
+        {{tag('link', {
+        rel: 'icon',
+        sizes: faviconSize~'x'~faviconSize,
+        type: 'image/png',
+        href: icon.getUrl(faviconTransform),
+        }) }}
+        {% endif %}
+        {% endfor %}
+        {# link touch icon #}
+        {% for faviconSize in sizesAppleTouch %}
+        {% set icon = favicon.faviconFile.one() %}
+        {% set shorterEdge = icon.width > icon.height ? icon.height : icon.width %}
+        {% if shorterEdge >= faviconSize %}
+        {% set faviconTransform = {
+            width: faviconSize,
+            height: faviconSize,
+            quality: 100,
+            position: 'center-center',
+            format: 'png',
+        } %}
+        {{tag('link', {
+        rel: 'apple-touch-icon',
+        sizes: faviconSize~'x'~faviconSize,
+        href: icon.getUrl(faviconTransform),
+        }) }}
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+        {% endcache %}
+
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta charset="utf-8" />
-        <title>Welcome to Craft CMS</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
         <meta name="referrer" content="origin-when-cross-origin" />
-        <style>{{ source('main.css') }}</style> <!-- env variable ophalen > in css zetten-->
+        <title>{{ systemName }}</title>
+        <link rel="stylesheet" href="/css/main.css">
     </head>
 
     <body>
-    
-        {# HEADER #}
-        {% include "_regions/_header.twig" %}
+        <section class="wrapper">
+        
+            {# HEADER #}
+            {% include "_regions/_header.twig" %}
 
-        {# BODY #}
-        <main>
-            {% block content %}
-            {% endblock %}
-        </main>
+            {# BODY #}
+            <main>
+                {% block content %}
+                {% endblock %}
+            </main>
 
-        {# FOOTER #}
-        {# {% include "_regions/_footer.twig" %} #}
-
-        {% do view.registerJsFile('main.js') %}
+            {# FOOTER #}
+            {% include "_regions/_footer.twig" %}
+        
+        </section>
+        <script src="/js/main.js"></script>
     </body>
-    {# <footer>
-        {% include "_regions/_footer.twig" %}
-    </footer> #}
 </html>

@@ -40,7 +40,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 3fe36747-cd19-43f4-ab43-3990abff9e6f # Card
+            fieldUid: 3fe36747-cd19-43f4-ab43-3990abff9e6f
             instructions: null
             label: null
             required: false

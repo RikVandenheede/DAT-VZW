@@ -1,0 +1,13 @@
+{% set blocks = entry.vacatureInformatie.all() %}
+{% for block in blocks %}
+    <div class="vacature-content">
+        {% include "_snippets/_vacatureContentBuilder/_blocks/_" ~ block.type.handle %}
+    </div>
+{% endfor %}
+
+
+
+        
+            
+            
+           

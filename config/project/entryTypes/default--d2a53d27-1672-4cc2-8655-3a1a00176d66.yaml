@@ -4,15 +4,6 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 69f371e4-72a6-4502-8956-e95f058cb3e5 # Image
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
             autocapitalize: true
             autocomplete: false
             autocorrect: true
@@ -44,8 +35,57 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
-        name: header
+          -
+            fieldUid: 4cf63765-8ef6-429e-af42-e5301205d864 # Profession
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: b78255e8-d163-4080-bcf9-b103c6d48b19 # Personal Info
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'detail page content'
         sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: 1ef7a627-b53e-42eb-8f24-b542d44f45b7 # cardImage
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 345322f5-8924-4e3a-85b5-a9db7bdcfa10 # cardTitle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 3387e151-0efd-4a63-b79d-0590657d081a # cardButtonText
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: card
+        sortOrder: 2
 handle: default
 hasTitleField: true
 name: Default

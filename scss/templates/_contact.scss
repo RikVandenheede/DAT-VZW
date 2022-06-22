@@ -1,0 +1,25 @@
+.contact {
+  .centrum {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+    &__title {
+      margin-bottom: 20px;
+    }
+    &__info {
+      p {
+        margin: 15px 0;
+        &:last-child {
+          margin-bottom: 25px;
+        }
+      }
+    }
+
+    img {
+      width: auto;
+      max-height: 400px;
+      object-fit: contain;
+    }
+  }
+}
